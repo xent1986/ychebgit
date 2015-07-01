@@ -1,0 +1,37 @@
+<div class="products_table">
+ <TABLE cellspacing="0" cellpadding="5" border="0" class="product_table">
+  <?php $i=0; $ar=array(); foreach($this->products as $val):?>
+  <?php if ($i==0) echo "<tr class=\"product_row\">";?>
+  <td class="product_item">
+  <?php $url=$this->url(array('controller'=>'products','action'=>'getdetails','item'=>$val['translit']),null,true);?>
+  <?php $pic = ($val['picture']==''?'/images/nopic.png':$val['picture']);?>
+   <div class="prod_name"><h2><a href="<?php echo $url;?>" title="<?php echo glob_quoteStr($val['name']);?>"><?php echo glob_quoteStr($val['name']);?></a></h2></div>
+   <div class="prod_info">
+      <div class="prod_img left"><span class="r" r="<?php echo $url;?>"><img width="80" onload="resizeme($(this));" alt="<?php echo glob_quoteStr($val['name']);?>" src="<?php echo $pic;?>"></span></div>
+      <div class="prod_details left">
+       <?php echo glob_productInfoFormat('Автор:',$val['author']);?>
+       <?php echo glob_productInfoFormat(($val['book']=='Y'?'Издательство:':'Производитель:'),$val['producer']);?>
+       <?php echo glob_productInfoFormat('Серия:',$val['series']);?>
+       <?php echo glob_productInfoFormat('Год:',$val['year']);?>
+       <?php echo glob_productInfoFormat('Переплет:',$val['cover']);?>
+       <?php echo glob_productInfoFormat('Страниц:',$val['pages']);?>
+      </div>
+      <div class="clear"></div>
+   </div>
+    <div class="prod_price_c">
+     <div class="prod_price2 left"><?php echo $val['price'].' руб.';?></div>
+     <div class="btnBuy_d left"><button class="btnBuy" onclick="<?php echo 'buyFromCat('.$val['id'].',$(this))';?>">Купить</button></div>
+     <input type="hidden"  class="holdprodid" value="<?php echo $val['id'];?>">
+     <div class="clear"></div>
+    </div>
+
+  </td>
+  <?php $i++; if ($i==3){$i=0; echo "</tr>";}?>
+  <?php endforeach;?>
+ <script>
+  checkCart();
+ </script>
+ </TABLE>
+   <iframe name="cartdetailframe" id="cartdetailframe" frameborder="no" width="0" height="0" src="<?php echo DOMAIN_PATH.'/application/views/scripts/cartFrame.html';?>">
+  </iframe>
+</div>

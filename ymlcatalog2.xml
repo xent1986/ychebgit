@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+           <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+           <yml_catalog date="2013-10-31 05:39">
+           <shop>
+           <name>Интернет-магазин Учебники</name>
+           <company>Интернет-магазин Учебники</company>
+           <url>http://ychebniki.ru</url>
+           <email>info@ychebniki.ru</email>
+           <currencies>
+                <currency id="RUR" rate="1"/>
+           </currencies><categories><category id="3" >Книги</category><category id="4" >Программное обеспечение</category><category id="6" >Канцтовары</category><category id="2249" parentId="3">Научная литература</category><category id="2250" parentId="2249">Биологические науки</category><category id="2251" parentId="2250">Общая биология</category><category id="2252" parentId="2250">Микробиология. Вирусология</category><category id="2253" parentId="2250">Зоология</category><category id="2254" parentId="2250">Ботаника</category><category id="2255" parentId="2250">Прочие издания</category><category id="2256" parentId="2249">Литературоведение</category><category id="2257" parentId="2256">История и теория литературы</category><category id="2259" parentId="2256">Литературная критика</category><category id="2260" parentId="2256">Прочие издания</category><category id="2261" parentId="2249">Медицина</category><category id="2262" parentId="2261">Общие вопросы</category><category id="2263" parentId="2261">Медико-биологические дисциплины</category><category id="2264" parentId="2261">Акушерство. Гинекология</category><category id="2265" parentId="2261">Внутренние болезни. Терапия</category><category id="2266" parentId="2261">Педиатрия</category><category id="2267" parentId="2261">Психиатрия. Наркология</category><category id="2268" parentId="2261">Стоматология</category><category id="2269" parentId="2261">Фармакология. Токсикология. Фармация</category><category id="2270" parentId="2261">Хирургия</category><category id="2271" parentId="2261">Другие области медицины</category><category id="2272" parentId="2261">Прочие издания</category><category id="2273" parentId="2249">Науки о Земле. Экология</category><category id="2274" parentId="2273">Общие вопросы</category><category id="2275" parentId="2273">География</category><category id="2276" parentId="2273">Геодезия. Картография</category><category id="2277" parentId="2273">Геология</category><category id="2278" parentId="2273">Геофизика</category><category id="2279" parentId="2273">Страноведение. Краеведение</category><category id="2280" parentId="2273">Экология</category><category id="2281" parentId="2273">Прочие издания</category><category id="2282" parentId="2249">Общественные науки</category><category id="2283" parentId="2282">Общественные науки в целом</category><category id="2284" parentId="2282">Военное дело. Специальные службы</category><category id="2285" parentId="2284">История войн, сражений, конфликтов и военного дела</category><category id="2286" parentId="2284">Военные науки</category><category id="2287" parentId="2284">Вооруженные силы. Специальные службы</category><category id="2288" parentId="2284">Военная техника. Оружие</category><category id="2289" parentId="2284">Прочие издания</category><category id="2290" parentId="2282">Журналистика. Средства массовой информации</category><category id="2291" parentId="2282">Исторические науки</category><category id="2292" parentId="2291">Общие вопросы</category><category id="2293" parentId="2291">Археология</category><category id="2294" parentId="2291">Всемирная история</category><category id="2295" parentId="14197">Прочее</category><category id="2296" parentId="2291">Этнография (этнология, народоведение)</category><category id="2297" parentId="2291">Прочие издания</category><category id="2298" parentId="2282">Культура</category><category id="2299" parentId="2282">Педагогика, образование</category><category id="2300" parentId="2299">Общие вопросы</category><category id="2301" parentId="2300">История образования и педагогики</category><category id="2302" parentId="2300">Общая педагогика</category><category id="2303" parentId="2300">Организация образования</category><category id="2304" parentId="2300">Педагогическая психология</category><category id="2305" parentId="2300">Прочие издания</category><category id="2306" parentId="2299">Дошкольное образование</category><category id="2307" parentId="2299">Общее среднее образование</category><category id="2308" parentId="2299">Среднее специальное образование</category><category id="2309" parentId="2299">Высшее образование</category><category id="2310" parentId="2299">Образование особых групп людей, дефектология. Логопедия</category><category id="2311" parentId="2299">Профессионально-техническое образование</category><category id="2312" parentId="2299">Семейное воспитание и образование</category><category id="2313" parentId="2299">Прочие издания</category><category id="2314" parentId="2282">Политика. Социология</category><category id="2315" parentId="2314">Теория и история политики. Политология</category><category id="2316" parentId="2314">Внешняя политика. Международные отношения</category><category id="2317" parentId="2314">Внутренняя политика</category><category id="2318" parentId="2314">Национальная политика. Национальные отношения</category><category id="2319" parentId="2314">Политические партии и организации</category><category id="2320" parentId="2314">Современное политическое положение государств</category><category id="2321" parentId="2314">Социология</category><category id="2322" parentId="2314">Прочие издания</category><category id="2323" parentId="2282">Статистика. Демография</category><category id="2324" parentId="2282">Прочие издания</category><category id="2325" parentId="2249">Прикладные науки. Техника</category><category id="2326" parentId="2325">Общие вопросы</category><category id="2327" parentId="2325">Автоматика. Радиоэлектроника. Связь</category><category id="2328" parentId="2327">Автоматика. Телемеханика</category><category id="2329" parentId="2327">Радиотехника</category><category id="2330" parentId="2327">Связь. Радио. Телевидение</category><category id="2331" parentId="2327">Электроника</category><category id="2332" parentId="2327">Прочие издания</category><category id="2333" parentId="2325">Сельское хозяйство</category><category id="2334" parentId="2333">Общие вопросы</category><category id="2335" parentId="2333">Водное хозяйство</category><category id="2336" parentId="2333">Животноводство. Ветеринария</category><category id="2337" parentId="2333">Лесное, охотничье и рыбное хозяйство</category><category id="2338" parentId="2333">Растениеводство</category><category id="2339" parentId="2333">Прочие издания</category><category id="2340" parentId="2325">Строительство</category><category id="2341" parentId="2340">Общие вопросы</category><category id="2342" parentId="2340">Жилищно-коммунальное хозяйство</category><category id="2343" parentId="2340">Инженерное оборудование. Санитарная техника</category><category id="2344" parentId="2340">Теоретические и практические основы строительства</category><category id="2345" parentId="2340">Прочие издания</category><category id="2346" parentId="2325">Транспорт</category></categories><local_delivery_cost>0</local_delivery_cost><offers><offer id="1691006" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Opukholi-golovy-i-shei-Klinicheskoe-rukovodstvo-Paches_1691006</url>
+          <price>1955.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>3268</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1691006.jpg</picture>
+          <vendor>Практическая медицина</vendor>
+          <name>Опухоли головы и шеи. Клиническое руководство</name>
+          <description>
+                                Книга написана авторским коллективом ведущих специалистов РОНЦ им. Н.Н. Блохина РАМН на основе собственного клинического опыта.
+В книге представлены современные данные по TNM. Рассмотрены 14 основных локализаций опухолей головы и шеи (опухоли кожи, губ, г
+         </description>
+         </offer><offer id="1691005" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Botulotoksin-v-ehsteticheskojj-medicine-Atlas-Tom-1-Zattler_1691005</url>
+          <price>2464.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1691005.jpg</picture>
+          <vendor>Практическая медицина</vendor>
+          <name>Ботулотоксин в эстетической медицине. Атлас. Том 1</name>
+          <description>
+                                Данный том серии практических руководств по методам омоложения кожи посвящен использованию ботулотоксина в эстетической медицине. Описаны препараты, существующие сегодня на рынке косметологии. Особое внимание уделяется сложному взаимодействию мимических л
+         </description>
+         </offer><offer id="1691004" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Fillery-v-ehsteticheskojj-medicine-Atlas-Tom-2-Zattler_1691004</url>
+          <price>2464.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1691004.jpg</picture>
+          <vendor>Практическая медицина</vendor>
+          <name>Филлеры в эстетической медицине. Атлас. Том 2</name>
+          <description>
+                                Данный том серии практических руководств по методам омоложения кожи посвящен использованию филлеров в эстетической медицине. Описаны препараты, существующие сегодня на рынке косметологии. Особое внимание уделяется применению производных гиалуроновой кисло
+         </description>
+         </offer><offer id="1690996" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehkonomicheskaya-istoriya-mira-Tom-1-Evropa-Konotopov_1690996</url>
+          <price>253.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2294</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690996.jpg</picture>
+          <vendor>Дашков и К°</vendor>
+          <name>Экономическая история мира. Том 1. Европа</name>
+          <description>
+                                Издание впервые объединяет историю развития хозяйства и историю экономической мысли, включая философские концепции классиков экономической науки. Будет незаменимо при подготовке к экзаменам кандидатского минимума по истории и философии экономики.
+         </description>
+         </offer><offer id="1690999" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Logopedicheskoe-posobie-dlya-preodoleniya-glagolnogo-deficita-i-vosstanovleniyu-svyaznojj-rechi-u-bolnykh-s-afaziejj-Kurziner_1690999</url>
+          <price>102.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2310</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690999.jpg</picture>
+          <vendor>В. Секачев</vendor>
+          <name>Логопедическое пособие для преодоления глагольного дефицита и восстановлению связной речи у больных с афазией</name>
+          <description>
+                                Данное пособие рассчитано на больных с афазией средней и лёгкой степени выраженности, то есть способных понимать, называть, читать и писать, но имеющих трудности оперативного подбора слов, формулирования мысли, грамматического оформления предложения.
+Осно
+         </description>
+         </offer><offer id="1690986" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Yazyk-Ehtnos-Vremya-Tarlanov_1690986</url>
+          <price>374.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2389</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690986.jpg</picture>
+          <vendor>Петрозаводский университет</vendor>
+          <name>Язык. Этнос. Время</name>
+          <description>
+                                В монографии рассматриваются важные и сложные проблемы языкознания, связанные со становлением, развитием, функционированием грамматических форм и категорий, своеобразием языковой эволюции; прослеживается соотнесенность языка с этносом, временем и культуро
+         </description>
+         </offer><offer id="1690550" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Sumochka-universalnaya-na-molnii-sinyaya_1690550</url>
+          <price>127.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>15675</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690550.png</picture>
+          <vendor>Brauberg</vendor>
+          <name>Сумочка универсальная на молнии, синяя</name>
+          <description>
+                                Вместительная и одновременно компактная универсальная сумочка замечательно подходит для использования в качестве органайзера для компьютерных и электронных аксессуаров, косметички или сумочки для хранения спортивных принадлежностей.
+На молнии. Одно просто
+         </description>
+         </offer><offer id="1690639" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhednevnik-Imperial-A4-2014-sinijj_1690639</url>
+          <price>425.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14270</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690639.png</picture>
+          <vendor>Brauberg</vendor>
+          <name>Ежедневник &quot;Imperial&quot;, А4, 2014, синий</name>
+          <description>
+                                Серия выполнена в классическом дизайне. Мягкая, прошитая по периметру обложка с легкой рельефной фактурой, напоминающей натуральную кожу, и внутренний блок из тонированной бумаги воплощают поистине имперскую роскошь серии.
+Формат: А4.
+Размер: 175х247 мм.
+
+         </description>
+         </offer><offer id="1690509" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ruchki-sharikovye-Round-Stic-Grip-60-shtuk-sinijj-sterzhen_1690509</url>
+          <price>606.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10535</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690509.png</picture>
+          <vendor>BIC</vendor>
+          <name>Ручки шариковые &quot;Round Stic Grip&quot;, 60 штук, синий стержень</name>
+          <description>
+                                Одноразовая шариковая ручка с мягким грипом идеальный вариант для тех, кто много пишет. Маленький размер наконечника обеспечивает точное письмо, ручку легко и приятно держать в руке.
+Цвет чернил: синий.
+Корпус: прозрачный.
+Толщина линии: 0,35 мм.
+В наборе
+         </description>
+         </offer><offer id="1690542" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Sumochka-universalnaya-na-molnii-seraya_1690542</url>
+          <price>127.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>15675</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690542.png</picture>
+          <vendor>Brauberg</vendor>
+          <name>Сумочка универсальная на молнии, серая</name>
+          <description>
+                                Вместительная и одновременно компактная универсальная сумочка замечательно подходит для использования в качестве органайзера для компьютерных и электронных аксессуаров, косметички или сумочки для хранения спортивных принадлежностей.
+На молнии. Одно просто
+         </description>
+         </offer><offer id="1690471" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Korrektiruyushhaya-lenta-Mini-Poket-Maus-_1690471</url>
+          <price>111.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10565</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690471.png</picture>
+          <vendor>BIC</vendor>
+          <name>Корректирующая лента &quot;Мини Покет Маус&quot;</name>
+          <description>
+                                Длина: 5 м.
+Ширина: 5 мм.
+         </description>
+         </offer><offer id="1690485" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Shtrikh-Tipp-ex-Rapid-20-ml-flakon-s-gubkojj_1690485</url>
+          <price>78.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10565</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690485.png</picture>
+          <vendor>BIC</vendor>
+          <name>Штрих &quot;Tipp-ex Rapid&quot; 20 мл, флакон с губкой</name>
+          <description>
+                                Корректирующая жидкость в пластиковом флаконе с губкой обеспечивает точное и аккуратное исправление печатного или рукописного текста.
+Объем: 20 мл.
+Уникальный конусообразный поролоновый аппликатор.
+Легко наносится, быстро высыхает на бумаге.
+         </description>
+         </offer><offer id="1690502" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ruchka-avtomaticheskaya-sharikovaya-4-Colours-4-cveta_1690502</url>
+          <price>72.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10537</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690502.jpg</picture>
+          <vendor>BIC</vendor>
+          <name>Ручка автоматическая шариковая &quot;4 Colours&quot;, 4 цвета</name>
+          <description>
+                                Цвет корпуса: салатовый.
+4 цвета чернил: голубой, фиолетовый, розовый, салатовый.
+         </description>
+         </offer><offer id="1690380" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-kryuchki-dlya-podveshivaniya-ramki-POS_1690380</url>
+          <price>20.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690380.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели-крючки для подвешивания рамки-POS</name>
+          <description>
+                                Держатели-крючки для подвешивания рамок-POS форматов А5, А4, А3. Рамка располагается параллельно несущей конструкции.
+Крепятся к боковым сторонам профиля рамки.
+Изготовлены из прозрачного пластика.
+2 штуки в комплекте (правый и левый).
+         </description>
+         </offer><offer id="1690387" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhatel-ramki-POS-nastolnyjj-75-gradusov_1690387</url>
+          <price>30.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690387.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатель рамки-POS, настольный, 75 градусов</name>
+          <description>
+                                Настольный держатель для установки рамки-POS любого формата (А5, А4, А3).
+Для установки рамки под углом 75 градусов по отношению к поверхности.
+Изготовлен из прозрачного пластика.
+         </description>
+         </offer><offer id="1690364" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-190-nastolnaya-A5-1448x210-mm_1690364</url>
+          <price>229.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690364.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов № 190, настольная, А5, 1448x210 мм</name>
+          <description>
+                                Двухсторонняя настольная подставка для листов формата А5. Изготовлена из идеально прозрачного акрилового стекла. Подойдет для размещения меню, рекламных материалов.
+Размер: 148х210 мм.
+Прозрачное основание позволяет наносить надписи или размещать наклейки
+         </description>
+         </offer><offer id="1690375" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Tablichka-informacionnaya-nastolnaya-210x80-mm_1690375</url>
+          <price>93.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10581</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690375.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Табличка информационная, настольная, 210x80 мм</name>
+          <description>
+                                Двухсторонняя настольная подставка для листов. Изготовлена из идеально прозрачного акрилового стекла. Подойдет для размещения меню, рекламных материалов.
+Размер: 210x80 мм.
+         </description>
+         </offer><offer id="1690338" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastolnaya-A5-210x150-mm_1690338</url>
+          <price>112.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690338.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настольная, А5, 210x150 мм</name>
+          <description>
+                                Односторонняя настольная подставка. Изготовлена из идеально прозрачного акрилового стекла. Подойдет для размещения меню, рекламных материалов.
+Размер: 210x150 мм.
+         </description>
+         </offer><offer id="1690354" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-180-nastolnaya-A4_1690354</url>
+          <price>329.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690354.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов № 180, настольная, А4</name>
+          <description>
+                                Двухсторонняя настольная подставка для листов формата А4. Изготовлена из идеально прозрачного акрилового стекла. Подойдет для размещения меню, рекламных материалов.
+Размер: 210х297 мм (формат А4).
+Прозрачное основание позволяет наносить надписи или размещ
+         </description>
+         </offer><offer id="1690312" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastennaya-A4-297x210-mm_1690312</url>
+          <price>171.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690312.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настенная, А4, 297x210 мм</name>
+          <description>
+                                Подставка для размещения на стене рекламной или информационной листовки. Изготовлена из идеально прозрачного акрилового стекла. Крепление на стену производится через два верхних отверстия.
+Размер: 297x210 мм.
+         </description>
+         </offer><offer id="1690333" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastolnaya-A5-150x210-mm_1690333</url>
+          <price>102.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690333.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настольная, А5, 150x210 мм</name>
+          <description>
+                                Двухсторонняя настольная подставка. Изготовлена из идеально прозрачного акрилового стекла. Подойдет для размещения меню, рекламных материалов.
+Размер: 150x210 мм.
+         </description>
+         </offer><offer id="1690261" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-dlya-cennika-150kh105-mm_1690261</url>
+          <price>31.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10581</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690261.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели для ценника, 150х105 мм</name>
+          <description>
+                                Настольная подставка для размещения бумажных ценников и рекламной информации. Устойчивая практичная конструкция.
+Размер: 105x105 мм.
+Материал: акриловое стекло.
+         </description>
+         </offer><offer id="1690300" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastennaya-A4-210x297-mm_1690300</url>
+          <price>165.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690300.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настенная, А4, 210x297 мм</name>
+          <description>
+                                Подставка для размещения на стене рекламной или информационной листовки. Изготовлена из идеально прозрачного акрилового стекла. Крепление на стену производится через два верхних отверстия или посредством самоклеящихся полосок на задней стенке подставки.
+Р
+         </description>
+         </offer><offer id="1690241" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-dlya-cennikov-20-shtuk-60kh40-mm_1690241</url>
+          <price>152.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10581</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690241.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели для ценников, 20 штук, 60х40 мм</name>
+          <description>
+                                Настольная подставка для размещения бумажных ценников и рекламной информации. Устойчивая практичная конструкция.
+Размер: 60х40 мм.
+Материал: акриловое стекло.
+Комплект: 20 штук.
+         </description>
+         </offer><offer id="1690242" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-dlya-cennikov-5-shtuk-80kh130-mm_1690242</url>
+          <price>97.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690242.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели для ценников, 5 штук, 80х130 мм</name>
+          <description>
+                                Настольная подставка для размещения бумажных ценников и рекламной информации. Устойчивая практичная конструкция.
+Размер: 80х130 мм.
+Материал: акриловое стекло.
+Комплект: 5 штук.
+         </description>
+         </offer><offer id="1690260" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-dlya-cennika-105kh150-mm_1690260</url>
+          <price>28.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10581</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690260.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели для ценника, 105х150 мм</name>
+          <description>
+                                Настольная подставка для размещения бумажных ценников и рекламной информации. Устойчивая практичная конструкция.
+Размер: 105х150 мм.
+Материал: акриловое стекло.
+         </description>
+         </offer><offer id="1690238" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastolnaya-A4_1690238</url>
+          <price>177.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690238.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настольная, А4</name>
+          <description>
+                                Настольная подставка с высоким бортом. Вмещает по несколько листовок и буклетов одновременно.
+Изготовлена под формат 1/3 А4.
+Сделана из идеально прозрачного акрилового стекла.
+Размер: 115х32 мм.
+         </description>
+         </offer><offer id="1690239" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Derzhateli-dlya-cennikov-10-shtuk-80kh60-mm_1690239</url>
+          <price>128.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690239.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Держатели для ценников, 10 штук, 80х60 мм</name>
+          <description>
+                                Настольная подставка для размещения бумажных ценников и рекламной информации. Устойчивая практичная конструкция.
+Размер: 80х60 мм.
+Материал: акриловое стекло.
+Комплект: 10 штук.
+         </description>
+         </offer><offer id="1690229" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastennaya-A4_1690229</url>
+          <price>290.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690229.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настенная, А4</name>
+          <description>
+                                Подставка для размещения на стене рекламной или другой печатной продукции формата А4 и меньше. Изготовлена из идеально прозрачного акрилового стекла. Ширина подставки 32 мм, позволяет положить несколько рекламных буклетов.
+Материал: прозрачное акриловое о
+         </description>
+         </offer><offer id="1690236" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Podstavka-dlya-reklamnykh-materialov-nastolnaya-A4_1690236</url>
+          <price>292.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14280</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690236.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Подставка для рекламных материалов, настольная, А4</name>
+          <description>
+                                Настольная подставка с высоким бортом. Благодаря широкому основанию, вмещает сразу несколько листовок или буклетов формата А4.
+Материал - прозрачное акриловое оргстекло.
+Для материалов формата А4.
+Размер: 215х32 мм.
+         </description>
+         </offer><offer id="1690217" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Lotok-navesnojj-dlya-stoek-Parus-A5_1690217</url>
+          <price>183.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14281</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690217.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Лоток навесной для стоек &quot;Парус&quot;, А5</name>
+          <description>
+                                Проволочный навесной лоток эргономичной конструкции. Идеален для размещения печатных материалов формата А5 на напольных стойках.
+Изготовлен из стальной проволоки.
+Размер: 260х158х30 мм.
+Цвет: &amp;quot;хром&amp;quot;.
+         </description>
+         </offer><offer id="1690220" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Lotok-navesnojj-dlya-stoek-Parus-A6_1690220</url>
+          <price>171.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14281</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690220.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Лоток навесной для стоек &quot;Парус&quot;, А6</name>
+          <description>
+                                Проволочный навесной лоток эргономичной конструкции. Идеален для размещения печатных материалов формата А5 на напольных стойках.
+Изготовлен из стальной проволоки.
+Размер: 220х115х30 мм.
+Цвет: &amp;quot;хром&amp;quot;.
+         </description>
+         </offer><offer id="1690193" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Panel-dlya-demosistem-s-tabulyatorom-A4-seraya-ramka_1690193</url>
+          <price>100.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14281</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690193.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Панель для демосистем, с табулятором, А4, серая рамка</name>
+          <description>
+                                Прозрачная двухсторонняя панель для настольных и настенных демонстрационных систем.
+Двухсторонняя панель для размещения двух листов А4 формата.
+Снабжена съемным ярлычком-табулятором для заголовка.
+Антибликовая поверхность панелей.
+Прочная и гибкая литая р
+         </description>
+         </offer><offer id="1690168" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Demosistema-nastennaya-10-panelejj-A4_1690168</url>
+          <price>1594.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14281</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690168.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Демосистема настенная, 10 панелей, А4</name>
+          <description>
+                                Может использоваться как расширительный модуль для настольной демонстрационной системы или самостоятельно в качестве настенной системы.
+10 двухсторонних панелей вмещают до 20 листов А4 формата.
+10 съемных ярлычков-табуляторов.
+Антибликовая поверхность пан
+         </description>
+         </offer><offer id="1690174" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Demosistema-nastennaya-na-10-panelejj-A4_1690174</url>
+          <price>1446.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14281</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690174.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Демосистема настенная на 10 панелей, А4</name>
+          <description>
+                                Демонстрационная система позволяет удобно и быстро разместить информацию о Вашей компании, о предлагаемых товара, услугах и ценах, инструкции для персонала и др.
+10 двухсторонних панелей вмещают 20 листов формата А4.
+10 съемных ярлычков для заголовков в к
+         </description>
+         </offer><offer id="1690042" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhednevnik-nedatirovannyjj-Saiman-A5-_1690042</url>
+          <price>227.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690042.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Ежедневник недатированный &quot;Сaiman&quot;, А5+</name>
+          <description>
+                                Формат – А5+.
+Размер: 140 х 200 мм.
+         </description>
+         </offer><offer id="1690045" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhednevnik-nedatirovannyjj-Citizen-A5-_1690045</url>
+          <price>298.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690045.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Ежедневник недатированный &quot;Citizen&quot;, А5+</name>
+          <description>
+                                Формат – А5.
+Размер: 140 х 200 мм.
+Белый блок.
+Цвета в ассортименте без возможности выбора: бордовый, серый, салатовый.
+         </description>
+         </offer><offer id="1690113" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Doska-magnitno-markernaya-45x60-sm-uluchshennaya-alyuminievaya-ramka_1690113</url>
+          <price>662.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14284</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690113.jpg</picture>
+          <vendor>Brauberg</vendor>
+          <name>Доска магнитно-маркерная, 45x60 см, улучшенная алюминиевая рамка</name>
+          <description>
+                                Доска идеально подойдет для проведения тренингов, совещаний и презентаций. Белое лаковое покрытие предназначено для письма специальными маркерами для белой доски. Металлическая поверхность позволяет размещать объявления при помощи магнитов.
+Размер: 45х60 
+         </description>
+         </offer><offer id="1690030" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhenedelnik-nedatirovannyjj-Status-A5_1690030</url>
+          <price>473.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690030.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Еженедельник недатированный &quot;Status&quot;, А5</name>
+          <description>
+                                Ежедневник недатированный.
+Формат: А5.
+Размер: 140х210 мм.
+Белый блок, ляссе.
+Цвет: синий.
+         </description>
+         </offer><offer id="1690040" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Bloknot-Bloom-Collection-80-listov_1690040</url>
+          <price>202.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10837</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690040.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Блокнот &quot;Bloom Collection&quot;, 80 листов</name>
+          <description>
+                                Блокнот на резинке
+80 листов.
+Формат – B6.
+Размер: 120х170 мм.
+Цвет: 7 видов, в ассортименте, без возможности выбора цвета.
+         </description>
+         </offer><offer id="1690020" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhenedelnik-nedatirovannyjj-Vogue-B6_1690020</url>
+          <price>353.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690020.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Еженедельник недатированный &quot;Vogue&quot;, B6</name>
+          <description>
+                                Ежедневник недатированный.
+Формат: B6.
+Бежевый блок.
+Черный обрез, ляссе.
+Цвет: бордовый.
+         </description>
+         </offer><offer id="1690023" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhenedelnik-nedatirovannyjj-Tintoretto-B6_1690023</url>
+          <price>394.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690023.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Еженедельник недатированный &quot;Tintoretto&quot;, B6</name>
+          <description>
+                                Ежедневник недатированный.
+Формат: B6.
+Бежевый блок.
+Зеленый облез.
+Полускрытый гребень.
+         </description>
+         </offer><offer id="1690025" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ezhenedelnik-nedatirovannyjj-Sienna-A5-_1690025</url>
+          <price>778.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>14271</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690025.jpg</picture>
+          <vendor>Bruno Visconti (Бруно Висконти)</vendor>
+          <name>Еженедельник недатированный &quot;Sienna&quot;, А5-</name>
+          <description>
+                                Ежедневник недатированный.
+Формат: А5-.
+Размер: 120х185 мм.
+Цвет: оранжевый.
+         </description>
+         </offer><offer id="1690011" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Korrektiruyushhaya-zhidkost-20-ml_1690011</url>
+          <price>11.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10565</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690011.jpg</picture>
+          <vendor>EaSTar</vendor>
+          <name>Корректирующая жидкость, 20 мл</name>
+          <description>
+                                Корректирующая жидкость с кисточкой.
+Для дома и офиса.
+         </description>
+         </offer><offer id="1690013" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Razbavitel-dlya-korrektiruyushhejj-zhidkosti-20-ml_1690013</url>
+          <price>9.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10565</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690013.jpg</picture>
+          <vendor>EaSTar</vendor>
+          <name>Разбавитель для корректирующей жидкости, 20 мл</name>
+          <description>
+                                Для дома и офиса.
+         </description>
+         </offer><offer id="1690014" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Rezinka-dlya-deneg-50-gramm_1690014</url>
+          <price>19.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10575</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690014.jpg</picture>
+          <vendor>EaSTar</vendor>
+          <name>Резинка для денег, 50 грамм</name>
+          <description>
+                                50 г, диаметр 70 мм, толщина 1,4 мм, каучук 60%.
+Цвета: ассорти.
+         </description>
+         </offer><offer id="1689868" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Gotovimsya-k-shkole-60-zanyatijj-po-psikhologicheskomu-razvitiyu-starshikh-doshkolnikov-Metodicheskoe-posobie-Lokalova_1689868</url>
+          <price>143.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>4213</categoryId>
+          <picture></picture>
+          <vendor>Генезис</vendor>
+          <name>Готовимся к школе. 60 занятий по психологическому развитию старших дошкольников. Методическое пособие</name>
+          <description>
+                                
+         </description>
+         </offer><offer id="1689965" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Rezinka-dlya-deneg_1689965</url>
+          <price>66.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10575</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689965.jpg</picture>
+          <vendor>EaSTar</vendor>
+          <name>Резинка для денег</name>
+          <description>
+                                200 г, диаметр 70 мм, толщина 1,4 мм, каучук 60%.
+         </description>
+         </offer><offer id="1689992" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Klejj-polimernyjj-s-gubkojj-dozatorom-50-ml_1689992</url>
+          <price>9.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10559</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689992.jpg</picture>
+          <vendor>EaSTar</vendor>
+          <name>Клей полимерный с губкой-дозатором, 50 мл</name>
+          <description>
+                                Клей полимерный с губкой для удобного дозирования.
+         </description>
+         </offer><offer id="1690009" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Klejj-polimernyjj-s-rollerom-50-ml_1690009</url>
+          <price>16.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10563</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/170/1690009.jpg</picture>
+          <vendor>Greenwich Line</vendor>
+          <name>Клей полимерный с роллером, 50 мл</name>
+          <description>
+                                Клей полимерный с роллером для удобного дозирования.
+         </description>
+         </offer><offer id="1689823" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Operacionnye-sistemy-Uchebnoe-posobie-Aleksakhin_1689823</url>
+          <price>305.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7854</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689823.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Операционные системы. Учебное пособие</name>
+          <description>
+                                Приведены сведения о современных операционных системах, устанавливаемых на персональных компьютерах, и основных тенденциях, иx совершенствования и развития. Рассмотрены особенности пользовательских интерфейсов различных современных операционных систем. Из
+         </description>
+         </offer><offer id="1689826" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Geodeziya-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Kiselev_1689826</url>
+          <price>675.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>13942</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689826.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Геодезия. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Даны общие сведения по геодезии, картографии и топографии; геодезическим приборам, методам геодезических измерений, вычислений и оценке точности их результатов; инженерно-геодезическим работам, выполняемым при изыскании, проектировании и строительстве инж
+         </description>
+         </offer><offer id="1689817" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Pervaya-medicinskaya-pomoshh-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-medicinskogo-professionalnogo-obrazovaniya-Glybochko_1689817</url>
+          <price>564.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10647</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689817.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Первая медицинская помощь. Учебник для студентов учреждений среднего медицинского профессионального образования</name>
+          <description>
+                                Изложены правила и методы оказания первой медицинской помощи при травмах, ранениях, ожогах, кровотечениях на месте происшествия и при доставке пострадавшего в ближайшее лечебное учреждение. Особое внимание уделено приемам оказания первой медицинской помощ
+         </description>
+         </offer><offer id="1689815" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Metrologiya-standartizaciya-i-sertifikaciya-v-mashinostroenii-Praktikum-Uchebnoe-posobie-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Ilyankov_1689815</url>
+          <price>345.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7975</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689815.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Метрология, стандартизация и сертификация в машиностроении. Практикум. Учебное пособие для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Рассмотрен комплекс практических задач по основным разделам дисциплины «Метрология, стандартизация и сертификация» с кратким изложением методических указаний к практическим заданиям и методических указаний к выполнению практических работ. Для каждой практ
+         </description>
+         </offer><offer id="1689814" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Tekhnicheskie-sredstva-informatizacii-Praktikum-Uchebnoe-posobie-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Lavrovskaya_1689814</url>
+          <price>458.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7854</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689814.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Технические средства информатизации. Практикум. Учебное пособие для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Данное издание представляет собой практикум по дисциплине «Технические средства информатизации» и включает в себя 10 практических работ. Каждая работа соответствует главе учебника для техникумов Гребенюк Е.И., Гребенюк Н.А. «Технические средства информати
+         </description>
+         </offer><offer id="1689809" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Informacionnye-sistemy-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Fedorova_1689809</url>
+          <price>523.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10332</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689809.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Информационные системы. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Подробно рассмотрены основные направления развития информационных систем, их информационные ресурсы и технологии. Раскрыты положения и методологические принципы современных информационных систем управления. Проанализированы принципы построения интегрирова
+         </description>
+         </offer><offer id="1689805" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehlektricheskijj-privod-Uchebnik-dlya-studentov-obrazovatelnykh-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Kacman_1689805</url>
+          <price>689.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>9548</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689805.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Электрический привод. Учебник для студентов образовательных учреждений среднего профессионального образования</name>
+          <description>
+                                В учебнике изложены теория электрического привода и основы управления, составляющие традиционное содержание курса «Электрический привод». Учебник сопровождается примерами расчетов характеристик и параметров электропривода и расчетов, связанных с выбором э
+         </description>
+         </offer><offer id="1689804" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Laboratorno-prakticheskie-raboty-po-ustrojjstvu-gruzovykh-avtomobilejj-Uchebnoe-posobie-dlya-nachalnogo-professionalnogo-obrazovaniya-Grif-MO-RF-Lamaka_1689804</url>
+          <price>479.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7954</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689804.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Лабораторно-практические работы по устройству грузовых автомобилей. Учебное пособие для начального профессионального образования. Гриф МО РФ</name>
+          <description>
+                                Представлены материалы для практических работ по устройству грузовых автомобилей ЗИЛ-130, ГАЗ-53А, КамАЗ-5320. К каждому заданию приведены инструкционное-технологическое карты, содержащие описание операций разборки, определения технического состояния, сбо
+         </description>
+         </offer><offer id="1689791" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Organizaciya-raboty-organov-socialnogo-obespecheniya-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Galaganov_1689791</url>
+          <price>607.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10663</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689791.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Организация работы органов социального обеспечения. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                В учебнике, подготовленном в соответствии с программой курса и требованиями образовательного стандарта, рассматриваются основные вопросы социального обеспечения граждан и государственной системы социального обеспечения. Дается комплексная характеристика с
+         </description>
+         </offer><offer id="1689788" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Tekhnologicheskaya-osnastka-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Ermolaev_1689788</url>
+          <price>740.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>9548</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689788.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Технологическая оснастка. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Рассмотрены основные вопросы конструирования и расчета технологической оснастки, типовые элементы станочных приспособлений, а также приспособления для металлорежущих станков основных групп. Описаны способы базирования и зажима заготовок и расчета погрешно
+         </description>
+         </offer><offer id="1689786" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Tekhnologiya-otdelochnykh-stroitelnykh-rabot-Grif-Ehkspertnogo-soveta-po-professionalnomu-obrazovaniyu-MO-RF-Zavrazhin_1689786</url>
+          <price>824.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7965</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689786.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Технология отделочных строительных работ. Гриф Экспертного совета по профессиональному образованию МО РФ</name>
+          <description>
+                                Содержатся основные сведения о выполнении отделочных работ, приведены технология производства работ и составы, приготавливаемые на строительном объекте. Подробно изложены используемые механизмы для производства отделочных работ, возможные неполадки, причи
+         </description>
+         </offer><offer id="1689785" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Uchet-i-otchetnost-predpriyatijj-torgovli-Uchebnoe-posobie-Kaurova_1689785</url>
+          <price>305.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7981</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689785.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Учет и отчетность предприятий торговли. Учебное пособие</name>
+          <description>
+                                Рассмотрены объекты бухгалтерского учета в торговле, его нормативно-правовое регулирование, учет на предприятиях торговли, в том числе денежных средств и расчетов, товаров, торговой наценки, основных средств и нематериальных активов, капитала, фондов, рез
+         </description>
+         </offer><offer id="1689783" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Pravovoe-obespechenie-professionalnojj-deyatelnosti-v-obrazovatelnom-uchrezhdenii-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Nikolaeva_1689783</url>
+          <price>625.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>9850</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689783.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Правовое обеспечение профессиональной деятельности в образовательном учреждении. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                В учебнике правовое обеспечение профессиональной деятельности в образовательном учреждении рассматривается в единстве трех аспектов — нормативного, организационного и профессионального. Теоретический материал сопровождается обсуждением конкретных ситуаций
+         </description>
+         </offer><offer id="1689782" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Tekhnologiya-i-organizaciya-proizvodstva-konditerskikh-izdelijj-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Kuznecova_1689782</url>
+          <price>751.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>12798</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689782.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Технология и организация производства кондитерских изделий. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Рассмотрена технология переработки пищевого сырья в сахарные и мучные кондитерские изделия. Приведены требования к качеству сырья при его закупке, хранении и подготовке к первичной переработке, химический состав и свойства сырья и сведения о его подвержен
+         </description>
+         </offer><offer id="1689781" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Osnovy-fiziologii-pitaniya-Uchebnoe-posobie-Lutoshkina_1689781</url>
+          <price>305.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7996</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689781.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Основы физиологии питания. Учебное пособие</name>
+          <description>
+                                В учебном пособии предлагается применение компетентностного подхода к подготовке персонала предприятий общественного питания.
+Приведены сведения о пищевых веществах и их значении в жизнедеятельности человека, о процессах пищеварения и особенностях обмена 
+         </description>
+         </offer><offer id="1689780" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Finansy-i-kredit-Praktikum-Uchebnoe-posobie-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Perekrestova_1689780</url>
+          <price>537.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>8036</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689780.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Финансы и кредит. Практикум. Учебное пособие для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Учебное пособие может быть использовано при изучении общепрофессиональной дисциплины «Финансы, денежное обращение и кредит» в соответствии с требованиями ФГОС СПО по специальностям укрупненной группы «Экономика и управление».
+Приведены задания по темам: т
+         </description>
+         </offer><offer id="1689779" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Avtomobili-Ustrojjstvo-avtotransportnykh-sredstv-Uchebnik-dlya-studentov-srednego-professionalnogo-obrazovaniya-Grif-MO-RF-Puzankov_1689779</url>
+          <price>923.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10661</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689779.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Автомобили. Устройство автотранспортных средств. Учебник для студентов среднего профессионального образования. Гриф МО РФ</name>
+          <description>
+                                Рассмотрены конструкции, типаж и технико-эксплуатационные показатели современных и вновь создаваемых автотранспортных средств (легковых и грузовых автомобилей, автопоездов и автобусов). Подробно описаны устройство и работа бензиновых двигателей, дизелей и
+         </description>
+         </offer><offer id="1689778" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Botanika-Uchebnik-dlya-studentov-obrazovatelnykh-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Rodionova_1689778</url>
+          <price>702.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10645</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689778.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Ботаника. Учебник для студентов образовательных учреждений среднего профессионального образования</name>
+          <description>
+                                В учебнике изложены сведения по морфологии, анатомии, физиологии и систематике растений, рассмотрены вопросы, касающиеся фитоценологии и охраны растительного мира. Основное внимание уделено растениям, связанным с жизнью леса.
+Учебник может быть использова
+         </description>
+         </offer><offer id="1689777" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehlektrooborudovanie-ehlektricheskikh-stancijj-i-podstancijj-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Karneeva_1689777</url>
+          <price>790.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>13970</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689777.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Электрооборудование электрических станций и подстанций. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Приведены сведения об электроэнергетических системах, особенностях технологических процессов различных типов электростанций. Рассмотрены режимы работы сетей высокого напряжения, выбор компенсирующих устройств. Даны описания конструкций основного электрооб
+         </description>
+         </offer><offer id="1689773" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Biologiya-Uchebnik-dlya-obrazovatelnykh-uchrezhdenijj-nachalnogo-i-srednego-professionalnogo-obrazovaniya-Konstantinov_1689773</url>
+          <price>523.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10645</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689773.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Биология. Учебник для образовательных учреждений начального и среднего профессионального образования</name>
+          <description>
+                                Учебник посвящен общим вопросам современной биологии. В нем приведены основные сведения о структуре живой материи и общие законы ее функционирования. Изложены темы учебного курса: происхождение, эволюция и многообразие жизни на Земле. Показаны взаимосвязи
+         </description>
+         </offer><offer id="1689772" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Materialovedenie-dlya-professijj-svyazannykh-s-obrabotkojj-drevesiny-Uchebnik-dlya-nachalnogo-professionalnogo-obrazovaniya-Stepanov_1689772</url>
+          <price>804.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>9548</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689772.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Материаловедение для профессий, связанных с обработкой древесины. Учебник для начального профессионального образования</name>
+          <description>
+                                Учебник создан в соответствии с Федеральным государственным образовательным стандартом начального профессионального образования по профессиям, связанным с обработкой древесины.
+Изложены сведения о строении дерева и древесины, физических и механических сво
+         </description>
+         </offer><offer id="1689767" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Zadachi-po-fizike-Uchebnoe-posobie-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Grif-MO-RF-Dmitrieva_1689767</url>
+          <price>749.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>8003</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689767.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Задачи по физике. Учебное пособие для студентов учреждений среднего профессионального образования. Гриф МО РФ</name>
+          <description>
+                                Приведены теория (в табличной форме), примеры решения типовых задач, а также задачи для самостоятельного решения с ответами по основным разделам физики: механике с элементами теории относительности, молекулярной физике и термодинамике, электродинамике, ко
+         </description>
+         </offer><offer id="1689764" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Medicinskaya-parazitologiya-Uchebnik-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Kornakova_1689764</url>
+          <price>710.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10647</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689764.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Медицинская паразитология. Учебник для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                Рассмотрены основы медицинской паразитологии: жизненные циклы паразитических простейших, червей и членистоногих, пути распространения и заражения, симптомы вызываемых ими заболеваний, основы патогенеза, лечение и прогнозы заболеваний, вопросы профилактики
+         </description>
+         </offer><offer id="1689760" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Pedagogicheskaya-psikhologiya-Uchebnoe-posobie-dlya-studentov-uchrezhdenijj-srednego-professionalnogo-obrazovaniya-Talyzina_1689760</url>
+          <price>542.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7933</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689760.jpg</picture>
+          <vendor>Академия (Academia)</vendor>
+          <name>Педагогическая психология. Учебное пособие для студентов учреждений среднего профессионального образования</name>
+          <description>
+                                В основе учебного пособия — «деятельностная» теория учения, изложение ее сопровождается различными практическими ситуациями. Приводятся возрастные особенности младших школьников; рассматривается учение как один из видов деятельности; выявляются его мотивы
+         </description>
+         </offer><offer id="1689734" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Problemy-nevrologii-KhKh-veka-Krushenie-illyuzijj-i-novye-otkrytiya-Ananin_1689734</url>
+          <price>216.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>3247</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689734.jpg</picture>
+          <vendor>Российский университет дружбы народов (РУДН)</vendor>
+          <name>Проблемы неврологии ХХ века. Крушение иллюзий и новые открытия</name>
+          <description>
+                                Приводится краткий анализ развития взглядов на теорию строения вегетативной нервной системы, основных постулатов и исходных данных, на которых строилась автономная нервная система Дж. Ленгли. Предлагается новая теория строения ВНС, основанная на единой дл
+         </description>
+         </offer><offer id="1689733" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Reformy-finansirovaniya-zdravookhraneniya-Opyt-stran-s-perekhodnojj-ehkonomikojj-Vypusk-21-Katzin_1689733</url>
+          <price>943.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>3243</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689733.jpg</picture>
+          <vendor>Европейская обсерватория</vendor>
+          <name>Реформы финансирования здравоохранения. Опыт стран с переходной экономикой. Выпуск 21</name>
+          <description>
+                                Начиная с 1990-х годов проводимая социальная и экономическая политика в так называемых странах с переходным периодом Центральной и Восточной Европы, Кавказа и Центральной Азии стала значительно различаться, включая проведение в этих странах реформ систем 
+         </description>
+         </offer><offer id="1689731" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehkonomika-organizacii-Uchebnoe-posobie-Grif-MO-RF-Chechevicyna_1689731</url>
+          <price>205.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>8036</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689731.jpg</picture>
+          <vendor>Феникс</vendor>
+          <name>Экономика организации. Учебное пособие. Гриф МО РФ</name>
+          <description>
+                                Учебное пособие по курсу «Экономика организации» отличается от многочисленных изданий учебной литературы тем, что составлено в полном соответствии с требованиями и программой Федерального государственного образовательного стандарта третьего поколения.
+В н
+         </description>
+         </offer><offer id="1689730" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Diagnostika-i-lechenie-mikozov-Khospental_1689730</url>
+          <price>1162.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>3246</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689730.jpg</picture>
+          <vendor>ГЭОТАР-Медиа</vendor>
+          <name>Диагностика и лечение микозов</name>
+          <description>
+                                Эта книга знакомит отечественного читателя с зарубежным взглядом на проблему грибковых инфекций человека. Значительное внимание, уделенное авторами как исключительно редким в России эндемическим нозологиям (гистоплазмоз, бластомикоз и др.), так и особым ф
+         </description>
+         </offer><offer id="1689728" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehndoprotezirovanie-tazobedrennogo-sustava-Osnovy-i-praktika-Rukovodstvo-Zagorodnijj_1689728</url>
+          <price>2732.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2270</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689728.jpg</picture>
+          <vendor>ГЭОТАР-Медиа</vendor>
+          <name>Эндопротезирование тазобедренного сустава. Основы и практика. Руководство</name>
+          <description>
+                                В руководстве рассмотрена проблема эндопротезирования тазобедренного сустава при его повреждениях и заболеваниях. В большом литературном обзоре приведены отдаленные результаты различных методов хирургического лечения тазобедренного сустава, изложена истор
+         </description>
+         </offer><offer id="1689727" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ehndokrinnaya-khirurgiya-Dedov_1689727</url>
+          <price>1093.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>3256</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689727.jpg</picture>
+          <vendor>Литтерра (Litterra)</vendor>
+          <name>Эндокринная хирургия</name>
+          <description>
+                                В настоящем руководстве авторский коллектив предпринял попытку изложения современных взглядов на основные нозологические формы, в лечении которых задействованы эндокринные хирурги. Содержание глав опирается на большой опыт ведущих специализированных центр
+         </description>
+         </offer><offer id="1689697" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ranec-shkolnyjj_1689697</url>
+          <price>3393.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10550</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689697.jpg</picture>
+          <vendor>LycSac</vendor>
+          <name>Ранец школьный</name>
+          <description>
+                                Размер ранца: 39 х 30 х 12 см.
+         </description>
+         </offer><offer id="1689703" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ranec-shkolnyjj-Tartan-Line-_1689703</url>
+          <price>3393.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10550</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689703.jpg</picture>
+          <vendor>LycSac</vendor>
+          <name>Ранец школьный &quot;Tartan Line&quot;</name>
+          <description>
+                                Размер ранца: 38 х 30 х 12 см.
+         </description>
+         </offer><offer id="1689708" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Bumaga-Kym-Lux-universalnaya_1689708</url>
+          <price>217.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10451</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689708.jpg</picture>
+          <vendor>Kym Lux</vendor>
+          <name>Бумага &quot;Kym Lux&quot;, универсальная</name>
+          <description>
+                                Бумага формата А4. Предназначена для печати на любых видах офисной печатающей техники: копировальных аппаратов, лазерных и струйных принтерах.
+Белизна: 97%.
+В пачке 500 листов.
+         </description>
+         </offer><offer id="1689662" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Karandashi-cvetnye-akvarelnye-s-kistochkojj_1689662</url>
+          <price>189.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10517</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689662.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Карандаши цветные акварельные с кисточкой</name>
+          <description>
+                                Карандаши акварельные, 12 цветов, заточенные.
+Трехгранная заточка корпуса.
+         </description>
+         </offer><offer id="1689687" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Stepler-24-6-26-6-20-listov-v-kletku_1689687</url>
+          <price>141.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10578</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689687.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Степлер №24/6, 26/6, 20 листов, в клетку</name>
+          <description>
+                                Степлер на 20 листов.
+Требуются скобы №24/6, 26/6.
+Цвет: в клетку.
+         </description>
+         </offer><offer id="1689691" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Nozhnicy-detskie-s-zakruglennymi-koncami_1689691</url>
+          <price>59.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10573</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689691.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Ножницы детские с закругленными концами</name>
+          <description>
+                                Закругленные концы. Автоматическое открывание.
+Размер: 145 мм.
+         </description>
+         </offer><offer id="1689693" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Nabor-figurnykh-nozhnic-so-smenyaemymi-lezviyami_1689693</url>
+          <price>443.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10573</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689693.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Набор фигурных ножниц со сменяемыми лезвиями</name>
+          <description>
+                                Закругленные концы. Автоматическое открывание.
+Зигзаг.
+8 сменяемых лезвий.
+Размер: 160 мм.
+         </description>
+         </offer><offer id="1689639" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Flomastery-aromatizirovannye-Perfume-Xplosion-Universal-12-shtuk_1689639</url>
+          <price>155.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10541</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689639.jpg</picture>
+          <vendor>Universal</vendor>
+          <name>Фломастеры ароматизированные &quot;Perfume Xplosion Universal&quot;, 12 штук</name>
+          <description>
+                                Фломастеры ароматизированные с фруктовыми и цветочными запахами.
+В наборе 12 цветов.
+Ширина линии 4мм.
+         </description>
+         </offer><offer id="1689644" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ruchka-sharikovaya-avtomaticheskaya-P1touch-_1689644</url>
+          <price>23.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10536</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689644.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Ручка шариковая, автоматическая, &quot;P1touch&quot;</name>
+          <description>
+                                Ручка шариковая, автоматическая, &amp;quot;P1touch&amp;quot;.
+Толщина линии: 1 мм.
+Цвет корпуса и чернил: черный.
+         </description>
+         </offer><offer id="1689646" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Ruchka-sharikovaya-avtomaticheskaya-P1touch-_1689646</url>
+          <price>23.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10535</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689646.jpg</picture>
+          <vendor>Milan</vendor>
+          <name>Ручка шариковая, автоматическая, &quot;P1touch&quot;</name>
+          <description>
+                                Ручка шариковая, автоматическая, &amp;quot;P1touch&amp;quot;.
+Толщина линии: 1 мм.
+Цвет корпуса и чернил: синий.
+         </description>
+         </offer><offer id="1689430" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Nabor-sharikovykh-ruchek-Angry-Birds-8-cvetov_1689430</url>
+          <price>69.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10537</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689430.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Набор шариковых ручек &quot;Angry Birds&quot;, 8 цветов</name>
+          <description>
+                                В наборе: 8 цветных шариковых ручек.
+Ширина линии письма: 0,7 мм.
+         </description>
+         </offer><offer id="1689435" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Linejjka-plastikovaya-Angry-Birds-20-sm-cvetnaya_1689435</url>
+          <price>17.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10569</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689435.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Линейка пластиковая &quot;Angry Birds&quot;, 20 см, цветная</name>
+          <description>
+                                Размер: 20 см.
+Материал: пластик.
+         </description>
+         </offer><offer id="1689437" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Karandash-chernografitovyjj-V-gostyakh-u-skazki-HB_1689437</url>
+          <price>5.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10520</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689437.jpg</picture>
+          <vendor>Silwerhof</vendor>
+          <name>Карандаш чернографитовый &quot;В гостях у сказки&quot;, HB</name>
+          <description>
+                                Карандаш чернографитовый.
+Твердость: HB.
+Граненый.
+         </description>
+         </offer><offer id="1689462" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Linejjka-plastikovaya-Angry-Birds-30-sm-cvetnaya_1689462</url>
+          <price>21.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10569</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689462.png</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Линейка пластиковая &quot;Angry Birds&quot;, 30 см, цветная</name>
+          <description>
+                                Размер: 30 см.
+Материал: пластик.
+         </description>
+         </offer><offer id="1689425" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Linejjka-plastikovaya-Angry-Birds-20-sm_1689425</url>
+          <price>24.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10569</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689425.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Линейка пластиковая &quot;Angry Birds&quot;, 20 см</name>
+          <description>
+                                Размер линейки: 20 см.
+Материал: пластик.
+         </description>
+         </offer><offer id="1689427" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Linejjka-zakladka-plastikovaya-Angry-Birds-30-sm-format-3D_1689427</url>
+          <price>28.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10457</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689427.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Линейка-закладка пластиковая &quot;Angry Birds&quot;, 30 см, формат 3D</name>
+          <description>
+                                Размер линейки: 30 см.
+Материал: пластик.
+         </description>
+         </offer><offer id="1689429" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Karandash-chernografitovyjj-Emotions-HB_1689429</url>
+          <price>6.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10520</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689429.jpg</picture>
+          <vendor>Silwerhof</vendor>
+          <name>Карандаш чернографитовый &quot;Emotions&quot;, HB</name>
+          <description>
+                                Карандаш чернографитовый.
+Твердость: HB.
+Граненый.
+         </description>
+         </offer><offer id="1689413" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Papka-dlya-tetradejj-na-molnii-Angry-Birds-A5_1689413</url>
+          <price>81.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10967</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689413.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Папка для тетрадей на молнии &quot;Angry Birds&quot;, А5</name>
+          <description>
+                                Папка для тетрадей на молнии.
+Материал: пластик.
+Формат: А5.
+         </description>
+         </offer><offer id="1689420" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Papka-dlya-tetradejj-na-molnii-Angry-Birds-A5-_1689420</url>
+          <price>102.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10967</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689420.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Папка для тетрадей на молнии &quot;Angry Birds&quot;, А5+</name>
+          <description>
+                                Папка для тетрадей на молнии.
+Материал: пластик.
+Формат: А5+ (28x20,5 см).
+         </description>
+         </offer><offer id="1689423" available="true">
+          <url>http://ychebniki.ru/products/getdetails/item/Karandashi-cvetnye-v-metallicheskom-tubuse-s-tochilkojj-Angry-Birds-12-cvetov_1689423</url>
+          <price>88.00</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>10517</categoryId>
+          <picture>http://my-shop.ru/_files/product/2/169/1689423.jpg</picture>
+          <vendor>CENTRUM</vendor>
+          <name>Карандаши цветные в металлическом тубусе с точилкой &quot;Angry Birds&quot;, 12 цветов</name>
+          <description>
+                                Количество цветов: 12.
+         </description>
+         </offer></offers></shop></yml_catalog>
