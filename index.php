@@ -32,7 +32,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
 //  $sec_ar['video'] = array("key"=>"video","name"=>"Видео","issel"=>false,"id"=>2);
 $banner_ar = array(array("cat"=>14023,"subcat"=>15632),array("cat"=>12895,"subcat"=>14019),array("cat"=>14011,"subcat"=>0),array("cat"=>14063,"subcat"=>0),array("cat"=>14020,"subcat"=>0),array("cat"=>12928,"subcat"=>0));
 
-$domain_path_s="ychebniki.ru";
+$domain_path_s="ycheb.ru";
 
 if (substr($_SERVER['HTTP_HOST'],0,4) == 'www.')
         define('DOMAIN_PATH','http://www.'.$domain_path_s);
@@ -52,6 +52,7 @@ define('PARTNER','3741_3');
 define('HOLDS_DESC_LEN','500');
 define('GENERAL_PARTNER',3741);
 
+set_include_path("C:\ZendFramework-1.11.11\library");
 //set_include_path("library");
 /*
 books - color:#8B2323;
