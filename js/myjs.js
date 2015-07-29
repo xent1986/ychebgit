@@ -348,8 +348,7 @@ function buyChecked(){
      var form = obj.contents().find("#frameCartForm");
      var item = obj.contents().find("#myitem");
      prnt2.find(".holds_btn_buy").html('<img src=\"/images/clean.png\" title=\"Есть в наличии\"> В корзине');
-     alert(item.attr('id'));
-          item.val(id);
+     item.val(id);
      form.submit();
    }
   }
