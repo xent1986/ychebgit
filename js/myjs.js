@@ -674,7 +674,7 @@ function checkCart()
 {
  ar = new Array();
  $('.product_item').each(function(){
-   idobj = $(this).find('.holdprodid');
+   idobj = $(this).find('.linkid');
    id = idobj.val();
    ar.push(id+'-1');
  }
