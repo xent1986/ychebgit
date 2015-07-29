@@ -640,7 +640,6 @@ function changeLastPrice(id,oldprice,obj,realid)
  $.get(domain+"products/getlastprice",{id:id,old:oldprice,real:realid},
  function(data)
  {
-     alert(data);
   if (data==0)
    price = oldprice;
   else
