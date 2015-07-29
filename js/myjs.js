@@ -344,6 +344,7 @@ function buyChecked(){
    }
    if (data==1)
    {
+     alert(id);
      var obj = $('iframe#cartframe');
      var form = obj.contents().find("#frameCartForm");
      var item = obj.contents().find("#myitem");
