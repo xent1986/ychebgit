@@ -344,12 +344,12 @@ function buyChecked(){
    }
    if (data==1)
    {
-     alert(id);
      var obj = $('iframe#cartframe');
      var form = obj.contents().find("#frameCartForm");
      var item = obj.contents().find("#myitem");
      prnt2.find(".holds_btn_buy").html('<img src=\"/images/clean.png\" title=\"Есть в наличии\"> В корзине');
-     item.val(id);
+     alert(item.attr('id'));
+          item.val(id);
      form.submit();
    }
   }
