@@ -684,14 +684,15 @@ function checkCart()
  function(data)
  {
   ar2 = new Array();
-  alert(data);
   ar2 = data.split(',');
   for (var key in ar2) {
    ar3 = ar2[key].split('-');
-   s = $("input[value="+ar3[0]+"]");
    price = parseFloat(ar3[1]);
-   prnt = s.parent();
-   prnt.find('.prod_price').html(price.toFixed(2)+' руб.');
+   $("input[value="+ar3[0]+"]").each(function(){
+     prnt = $(this).parent();
+     prnt.find('.prod_price').html(price.toFixed(2)+' руб.');  
+   });
+  
   }
  }
  );
