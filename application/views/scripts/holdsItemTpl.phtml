@@ -1,5 +1,5 @@
 <div class="holds_tr" onclick="change_checkbox($(this));" onmouseenter="holdsdelVisible(true,$(this));" onmouseleave="holdsdelVisible(false,$(this));">
- <div class="holds_td_check left"><input onclick="change_me($(this));" type="checkbox" id="<?php echo 'ch_'.$this->id;?>" name="<?php echo 'ch['.$this->id.']';?>"></div>
+ <div class="holds_td_check left"><input onclick="change_me($(this));" type="checkbox" id="<?php echo 'ch_'.($this->link_ID==0?$this->id:$this->link_ID);?>" name="<?php echo 'ch['.($this->link_ID==0?$this->id:$this->link_ID).']';?>"></div>
  <div class="holds_td_img left"><img width="80" onload="resizeme($(this));" alt="<?php echo glob_quoteStr($this->name);?>" src="<?php echo ($this->picture==''?'/images/nopic.png':$this->picture);?>"></div>
  <div class="holds_td_desc left">
   <div class="holds_td_title"><a href="<?php echo DOMAIN_PATH.'/products/getdetails/item/'.$this->translit;?>"><?php echo $this->name;?></a></div>

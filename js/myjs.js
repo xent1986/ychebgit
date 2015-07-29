@@ -334,7 +334,6 @@ function buyChecked(){
  prnt2.find(".holds_btn_buy").html('<img src=\"/images/loading5.gif\" title=\"Обрабатывается\">');
 
  setTimeout(function(){
-
  $.get(domain+"application/utils/check.php",{good:id},
   function(data)
   {
