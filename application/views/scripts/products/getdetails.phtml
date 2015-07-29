@@ -28,7 +28,7 @@
         <div class="pd_exist_title left">Наличие:</div>
         <div class="pd_exist_img left" id="sAvail"><img src="/images/loading5.gif"></div>
         <script>
-         checkGoodExist(<?php echo $this->details['id'];?>);
+         checkGoodExist(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>);
         </script>
         <div class="clear"></div>
        </div>
@@ -40,13 +40,14 @@
          <div class="pd_di_info"></div>
         </div>
         <script>
-         updateGoodPrice(<?php echo $this->details['id'];?>,<?php echo $this->details['price'];?>)
+         updateGoodPrice(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>,<?php echo $this->details['price'];?>)
         </script>
         <div class="pd_buy_form">
          <FORM action="http://p.my-shop.ru/order" id="buyForm" method="POST">
           <input type="hidden" name="action" value="cartAddItem">
           <input type="hidden" name="partner" value="3741_3">
-          <input id="myitem" name="item" type="hidden" value="<?php echo $this->details['id'];?>">
+          <input id="myitem" name="item" type="hidden" value="<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>">
+          <input id="linkitem" name="link" type="hidden" value="<?php echo $this->details['link_ID'];?>">
           <input id="itemcnt" type="hidden" name="quantity" value="1">
           <div class="pd_cnt left">
            <div class="pd_cnt_all">
