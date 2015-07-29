@@ -684,6 +684,7 @@ function checkCart()
  function(data)
  {
   ar2 = new Array();
+  alert(data);
   ar2 = data.split(',');
   for (var key in ar2) {
    ar3 = ar2[key].split('-');
