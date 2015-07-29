@@ -193,6 +193,7 @@ public function getlastpriceAction()
     {
      $id=$this->_getParam('id');
      $old = $this->_getParam('old');
+     $real = $this->_getParam('real');
      $answer = $this->sendCurlCostResponse($id);
           
      
@@ -204,7 +205,7 @@ public function getlastpriceAction()
 	  $scost = $js->{'sale_cost'};
 	  if ($scost!=0) $cost = $scost;
 	  if ($cost!=$old)
-       $this->updatebdprice($id,$cost);
+            $this->updatebdprice($real,$cost);
      }
      echo $answer; exit;
     }

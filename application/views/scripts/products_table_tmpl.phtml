@@ -20,7 +20,7 @@
    </div>
     <div class="prod_price_c">
      <div class="prod_price2 left"><?php echo $val['price'].' руб.';?></div>
-     <div class="btnBuy_d left"><button class="btnBuy" onclick="<?php echo 'buyFromCat('.$val['id'].',$(this))';?>">Купить</button></div>
+     <div class="btnBuy_d left"><button class="btnBuy" onclick="<?php echo 'buyFromCat('.($val['link_ID']==0?$val['id']:$val['link_ID']).',$(this))';?>">Купить</button></div>
      <input type="hidden"  class="holdprodid" value="<?php echo $val['id'];?>">
      <div class="clear"></div>
     </div>

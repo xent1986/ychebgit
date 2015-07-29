@@ -628,18 +628,19 @@ function checkGoodExist(id)
  );
 }
 
-function updateGoodPrice(id,oldprice)
+function updateGoodPrice(id,oldprice,realid)
 {
  obj = $('.pd_buy_price');
  obj.html('<img src="/images/loading5.gif">');
- changeLastPrice(id,oldprice,obj);
+ changeLastPrice(id,oldprice,obj,realid);
 }
 
-function changeLastPrice(id,oldprice,obj)
+function changeLastPrice(id,oldprice,obj,realid)
 {
- $.get(domain+"products/getlastprice",{id:id,old:oldprice},
+ $.get(domain+"products/getlastprice",{id:id,old:oldprice,real:realid},
  function(data)
  {
+     alert(data);
   if (data==0)
    price = oldprice;
   else

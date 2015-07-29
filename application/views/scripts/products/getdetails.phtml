@@ -40,7 +40,7 @@
          <div class="pd_di_info"></div>
         </div>
         <script>
-         updateGoodPrice(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>,<?php echo $this->details['price'];?>)
+         updateGoodPrice(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>,<?php echo $this->details['price'];?>,<?php echo $this->details['id']?>);
         </script>
         <div class="pd_buy_form">
          <FORM action="http://p.my-shop.ru/order" id="buyForm" method="POST">
