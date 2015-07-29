@@ -690,7 +690,7 @@ function checkCart()
    price = parseFloat(ar3[1]);
    $("input[value="+ar3[0]+"]").each(function(){
      prnt = $(this).parent();
-     prnt.find('.prod_price').html(price.toFixed(2)+' руб.');  
+     prnt.find('.prod_price2').html(price.toFixed(2)+' руб.');  
    });
   
   }
