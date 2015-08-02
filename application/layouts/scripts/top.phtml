@@ -37,8 +37,8 @@
    <ul>
     <li class="first <?php echo ($class=='delivery'?'selected':'');?>"><a title="Информация о способах доставки" href="<?php echo $this->url(array('controller'=>'info','action'=>'delivery'),null,true);?>">Доставка</a></li>
     <li class="<?php echo ($class=='payment'?'selected':'');?>"><a title="Информация о способах оплаты" href="<?php echo $this->url(array('controller'=>'info','action'=>'payment'),null,true);?>">Оплата</a></li>
-    <li class="<?php echo ($class=='discount'?'selected':'');?>"><a title="Информация о скидках" href="<?php echo $this->url(array('controller'=>'info','action'=>'discount'),null,true);?>">Скидки</a></li>
-    <li class="last <?php echo ($class=='zakaznik'?'selected':'');?>"><a title="Помощь в поиске товаров" href="<?php echo $this->url(array('controller'=>'zakaznik'),null,true);?>">Заказник</a></li>
+    <li class="last <?php echo ($class=='discount'?'selected':'');?>"><a title="Информация о скидках" href="<?php echo $this->url(array('controller'=>'info','action'=>'discount'),null,true);?>">Скидки</a></li>
+    <li style="visibility:hidden;" class="last <?php echo ($class=='zakaznik'?'selected':'');?>"><a title="Помощь в поиске товаров" href="<?php echo $this->url(array('controller'=>'zakaznik'),null,true);?>">Заказник</a></li>
    </ul>
   </div>
  </div>
