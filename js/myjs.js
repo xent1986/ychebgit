@@ -49,7 +49,7 @@ var isvis=false;
   }
   );
 
-   $("#edSearch").autocomplete(domain+"application/utils/searchautocomplete.php", {
+   /*$("#edSearch").autocomplete(domain+"application/utils/searchautocomplete.php", {
         delay:10,
         minChars:2,
         matchSubset:1,
@@ -60,7 +60,7 @@ var isvis=false;
         maxItemsToShow:10,
   }).result(function(event,data,formatted){
    return 1;
-   });
+   });*/
 
    var cntWatchedProds=0;
    $('.pw_item_img').each(function(){cntWatchedProds = cntWatchedProds+1;});
