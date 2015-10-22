@@ -32,8 +32,7 @@ class InfoController extends Zend_Controller_Action
  private function delivery_getRequired($str)
  {
    $matches=array();
-   //print_r($str);
-   if (preg_match('/(<td><hr size.*>.*Набор доступных способов доставки зависит от региона доставки.*<li><a href="\/my\/helper_71">Дополнительные курьерские службы<.*<\/td>)/Uis',$str,$matches))
+   if (preg_match('/(<td><div class="lh1px.*Набор доступных способов доставки зависит от региона доставки.*<li><a href="\/my\/helper_71">Дополнительные курьерские службы<.*<\/td>)/Uis',$str,$matches))
    {
     $s = $matches[1];//return $matches[1];
    } else $s= '';
@@ -60,7 +59,7 @@ class InfoController extends Zend_Controller_Action
  {
    $matches=array();
    //print_r($str);
-   if (preg_match('/(<td><hr size.*>.*В зависимости от выбранного.*Возврат денежных средств\.<.*<\/td>)/Uis',$str,$matches))
+   if (preg_match('/(<td><div class="lh1px.*В зависимости от выбранного.*Возврат денежных средств\.<.*<\/td>)/Uis',$str,$matches))
    {
 
     return $matches[1];
