@@ -65,6 +65,7 @@ class ProductsController extends Zend_Controller_Action
   $this->view->pager=$pager;
   $this->view->curpage = $page;
   $this->view->products = $pager->getCurrentItems()->toArray();
+  $this->view->adsense = glob_getGoogleAd(1);
 
  }
 
@@ -91,6 +92,7 @@ class ProductsController extends Zend_Controller_Action
    $this->view->pager=$pager;
 //   print_r($pager->getAll()->toArray());exit;
    $this->view->products = $pager->getCurrentItems();//->toArray();
+   $this->view->adsense = glob_getGoogleAd(2);
  }
 
  public function getdetailsAction()

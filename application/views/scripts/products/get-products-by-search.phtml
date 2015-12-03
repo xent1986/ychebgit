@@ -11,6 +11,9 @@
  $params = array('sort'=>$this->sort,'perpage'=>$this->perpage,'mode'=>'search','section'=>'search');
  echo $this->partial("sorts_toolbar.phtml",$params);
 ?>
+    <div class="google_ad">
+        <?php echo $this->adsense;?>
+    </div>
 <?php
  $params = array('products'=>$this->products);
  echo $this->partial("products_table_tmpl.phtml",$params);
