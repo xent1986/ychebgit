@@ -271,15 +271,15 @@ function glob_getGoogleAd($num) {
     $res = "";
     switch ($num) {
       case 1: $res = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Ychebniki -->
-                    <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-4117190601337401"
-                        data-ad-slot="3714122653"
-                        data-ad-format="auto"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>';
+                        <!-- Ychebniki -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-4117190601337401"
+                             data-ad-slot="3714122653"
+                             data-ad-format="auto"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>';
       case 2: $res = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Ychebniki_search -->
                         <ins class="adsbygoogle"
