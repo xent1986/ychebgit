@@ -280,6 +280,7 @@ function glob_getGoogleAd($num) {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>';
+          break;
       case 2: $res = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Ychebniki_search -->
                         <ins class="adsbygoogle"
@@ -290,6 +291,7 @@ function glob_getGoogleAd($num) {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>';
+          break;
     }
     return $res;
 }
