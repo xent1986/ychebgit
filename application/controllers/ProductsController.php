@@ -130,6 +130,7 @@ class ProductsController extends Zend_Controller_Action
     $pager=null;
     $db->getProductsBySearch($params,$pager);
     $this->view->similar = $pager->getCurrentItems();//->toArray();
+    $this->view->adsense = glob_getGoogleAd(3);
    }
    else { $this->_helper->viewRenderer('noproduct');}
 

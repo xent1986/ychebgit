@@ -292,6 +292,17 @@ function glob_getGoogleAd($num) {
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>';
           break;
+      case 3: $res = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Ychebniki_details -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-4117190601337401"
+                             data-ad-slot="9533010250"
+                             data-ad-format="auto"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>';
+          break;
     }
     return $res;
 }

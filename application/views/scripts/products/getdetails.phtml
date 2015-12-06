@@ -93,6 +93,9 @@
    </div>
    </section>
    <?php endif;?>
+    <div class="google_ad" style="margin-bottom:10px;">
+        <?php echo $this->adsense;?>
+    </div>
    <?php if (count($this->similar)>0) echo $this->partial("similarBlockTpl.phtml",array('title'=>'Похожие товары','similar'=>$this->similar));?>
   </div>
   <div class="clear"></div>
