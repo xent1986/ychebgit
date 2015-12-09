@@ -371,6 +371,19 @@ public function getbannerAction()
     }
 }
 
+public function changeproductstatusAction()
+ {
+    if ($this->getRequest()->isGet())
+    {
+     $id=$this->_getParam('prodid');
+     $status = $this->_getParam('status');
+      
+     $db = new Application_Model_DbTable_Products();
+     $db->updateProductStatus($id,$status);
+     exit;
+    }
+ }
+
 }
 
 

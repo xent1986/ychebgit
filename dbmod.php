@@ -3,10 +3,14 @@
 function dbConnect($host,$user,$bd)
 {
 
-   $host = 'localhost';
+   /*$host = 'localhost';
    $user = 'vitlag_admin';
    $bd  = 'vitlag_lyntik';
-   $pass = 'vitexchange';
+   $pass = 'vitexchange';*/
+    $host = 'localhost';
+    $user = 'root';
+    $bd = 'lyntik';
+    $pass = '';
 
 //        $user = 'root';
 //        $bd  = 'lyntik';

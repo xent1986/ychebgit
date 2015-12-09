@@ -71,7 +71,15 @@ function get_orders_table($isopened)
            FROM orders".$where." ORDER BY id";
 
  $res = exec_query($query);
- $cnt = mysql_num_rows($res);
+ if (!$res)
+ {
+     $cnt = 0;
+ }
+ else
+ {
+     $cnt = mysql_num_rows($res);
+ }
+ 
  $str = "";
  if ($cnt>0)
  {
@@ -101,11 +109,12 @@ function get_orders_table($isopened)
            </tr>";
   }
   $str .= "</TABLE>";
+  mysql_free_result($res);
  }
  else {
   $str = "<div>Заявок нет</div>";
  }
- mysql_free_result($res);
+ 
  dbDisconnect($lnk);
  return $str;
 }

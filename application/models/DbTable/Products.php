@@ -248,6 +248,13 @@ class Application_Model_DbTable_Products extends Zend_Db_Table_Abstract
   }
 
  }
+ 
+ public function updateProductStatus($id,$status)
+ {
+   $data = array('product_status'=>$status);
+   $where = $this->getAdapter()->quoteInto('id = ?', $id);
+   $this->update($data,$where);
+ }
 
 }
 

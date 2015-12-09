@@ -1,6 +1,7 @@
 <?php
 //include "vars.php";
 //include "glob_func.php";
+//include "dbmod.php";
 
 $part_id=3741;
 
@@ -83,7 +84,9 @@ function sendCurlResponse($id)
   if ($err=='0')
   {
    $avail = (int)$xml->availability_code;
-   if (($avail==2)||($avail==3)) $res = 1; else $res=0;
+   if (($avail==2)||($avail==3)) 
+   { $res = 1; }
+   else { $res=0; }
   }
   else
    $res = 0;

@@ -620,7 +620,7 @@ function checkGoodExist(id)
   function(data)
   {
    var flag;
-   if (data==0) {$('#sAvail').html('<img src=\"/images/cancel.png\" title=\"Нет в наличии\">'); flag=true;}
+   if (data==0) {$('#sAvail').html('<img src=\"/images/cancel.png\" title=\"Нет в наличии\">'); flag=true; $.get(domain+"products/changeproductstatus",{prodid:id,status:1});}
    if (data==1) {$('#sAvail').html('<img src=\"/images/clean.png\" title=\"Есть в наличии\">'); flag=false;}
    //$("#btApply").attr("disabled",flag);
   }
