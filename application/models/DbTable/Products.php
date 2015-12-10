@@ -7,7 +7,7 @@ class Application_Model_DbTable_Products extends Zend_Db_Table_Abstract
  {
   $select = $this->select()
                            ->from(array('p'=>'ln_product_my'))
-                           ->where(" categoryId IN ($cats) AND mycat_id=".MYCAT);
+                           ->where(" categoryId IN ($cats) AND mycat_id=".MYCAT." AND product_status IN (0,2)");
   if($limit!=0)
    $select->limit($limit,$start);
   $rows = $this->fetchAll($select);
@@ -26,7 +26,7 @@ class Application_Model_DbTable_Products extends Zend_Db_Table_Abstract
   $childs = $params['childs'];
   $order = ($params['order']==''?'name':'price '.$params['order']);
   $select = $this->select()
-                   ->where(" categoryId IN ($childs) AND mycat_id=".MYCAT)
+                   ->where(" categoryId IN ($childs) AND mycat_id=".MYCAT." AND product_status IN (0,2)")
                    ->order($order);
   $pager = Zend_Paginator::factory($select);
   $pager->setCurrentPageNumber($params['curpage']);
@@ -76,7 +76,7 @@ class Application_Model_DbTable_Products extends Zend_Db_Table_Abstract
                    ->order(" MATCH (name,description) AGAINST ('русский язык >5 класс' IN BOOLEAN MODE) DESC");*/
 //                   ->limit(3000,0);
   $db = $this->getDefaultAdapter();
-  $s = "SELECT * FROM ln_product_my WHERE MATCH (name,description) AGAINST (".$db->quote($params['search']).") AND mycat_id=".MYCAT." limit 300";
+  $s = "SELECT * FROM ln_product_my WHERE MATCH (name,description) AGAINST (".$db->quote($params['search']).") AND mycat_id=".MYCAT." AND product_status IN (0,2) limit 300";
   $res = $db->query($s);
 //  echo $s;exit;
 //  $ar = $this->fetchAll($select)->toArray();
