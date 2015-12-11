@@ -307,4 +307,14 @@ function glob_getGoogleAd($num) {
     return $res;
 }
 
+function glob_extractCartCount($text)
+{
+   $matches=array();
+   if (preg_match('/<div id="myShopOneLineCartDiv">.*\((\d).*\)/Uis',$text,$matches))
+   {
+    $s = $matches[1];//return $matches[1];
+   } else $s= '';
+  return $s;
+}
+
 ?>

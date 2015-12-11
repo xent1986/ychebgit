@@ -274,6 +274,19 @@ public function checkcartAction()
     }
 }
 
+public function getcartAction()
+{
+    if ($this->getRequest()->isGet())
+    {
+      $nocache = $this->_getParam('cache');
+      $param = $this->_getParam('param');
+      $answer = $this->sendCurlExtractCartResponse($nocache,$param);
+      //if ($answer!='error')
+         // $answer = glob_extractCartCount($answer);
+      echo iconv('windows-1251','utf-8',$answer); exit;
+    }
+}
+
 private function sendCurlCartResponse($ids)
 {
 // global $part_id;
@@ -312,6 +325,33 @@ private function sendCurlCartResponse($ids)
  {
   $res = 0;
  }
+ return $res;
+}
+
+private function sendCurlExtractCartResponse($nocache,$param)
+{
+// global $part_id;
+ $server = "http://p.my-shop.ru/order";
+ //$request = "version=1.10&partner=".GENERAL_PARTNER."&auth_method=plain&auth_code=04626771399847c48e50f8f7c5c08509&request=list_cart&cart={$ids}";
+ $request = "action=embedCart&partner=3741_3&nocache=".$nocache;
+        $ch = curl_init($server);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $request);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        $content = curl_exec($ch);
+        $curl_errno = curl_errno($ch);
+        $curl_error = curl_error($ch);
+        curl_close($ch);
+ if (empty($curl_error))
+ {
+  $res = $content;
+ }
+  else
+   $res = "error";
+
  return $res;
 }
 

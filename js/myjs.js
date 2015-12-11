@@ -263,6 +263,18 @@ function buyFromCat(id,obj)
  );
 }
 
+function extractCartValue()
+{
+ var nocach = Math.ceil(Math.random()*1000000);
+ var param = location.search.substring(1);
+ $.get(domain+"products/getcart",{cache:nocach,param:param},
+ function(data)
+ {
+   alert(data); 
+   });
+  
+}
+
 function buyGood(id)
 {
   
