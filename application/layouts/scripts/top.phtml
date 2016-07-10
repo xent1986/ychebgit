@@ -17,11 +17,12 @@
  <div id="top_center" class="top_center  left">
   <div id="top_center_top" class="top_center_top">
    <div class="logo">
-    <div id="main_logo"><a id="logo" href="http://ychebniki.ru" rel="nofollow" title="Учебники - интернет-магазин учебников и учебных принадлежностей"><img src="/images/logo.png" alt="Интернет-магазин учебных принадлежностей Учебники"></a></div>
-    <strong>интернет-магазин учебников </strong>
+    <div id="main_logo"><a id="logo" href="http://ychebniki.ru" rel="nofollow" title="Учебники - интернет-магазин учебников и учебных принадлежностей"><img src="/images/logo2.png" alt="Интернет-магазин учебных принадлежностей Учебники" height="70"></a></div>
+    <strong>интернет - магазин учебников </strong>
    </div>
 
   </div>
+  
   <?php
    $request = Zend_Controller_Front::getInstance()->getRequest();
    $action = $request->getActionName(); $controller=$request->getControllerName();
@@ -33,18 +34,10 @@
    }
 
    ?>
-  <div id="top_center_bottom" class="top_center_bottom">
-   <ul>
-    <li class="first <?php echo ($class=='delivery'?'selected':'');?>"><a title="Информация о способах доставки" href="<?php echo $this->url(array('controller'=>'info','action'=>'delivery'),null,true);?>">Доставка</a></li>
-    <li class="<?php echo ($class=='payment'?'selected':'');?>"><a title="Информация о способах оплаты" href="<?php echo $this->url(array('controller'=>'info','action'=>'payment'),null,true);?>">Оплата</a></li>
-    <li class="last <?php echo ($class=='discount'?'selected':'');?>"><a title="Информация о скидках" href="<?php echo $this->url(array('controller'=>'info','action'=>'discount'),null,true);?>">Скидки</a></li>
-    <li style="visibility:hidden;" class="last <?php echo ($class=='zakaznik'?'selected':'');?>"><a title="Помощь в поиске товаров" href="<?php echo $this->url(array('controller'=>'zakaznik'),null,true);?>">Заказник</a></li>
-   </ul>
-  </div>
  </div>
    <div class="logo_cart left">
     <a href="<?php echo $this->url(array('controller'=>'cart'),null,true);?>" title="Корзина покупателя">
-     <div class="cart_logo"><img alt="корзина покупателя" src="/images/cart.png"></div>
+     <div class="cart_logo"><img height="70" alt="корзина покупателя" src="/images/cart2.png"></div>
      <div class="cart_myshop">
           <script type="text/javascript">
           var myShopPartnerId = '<?php echo PARTNER;?>';
@@ -66,4 +59,24 @@
     <li><a href="http://www.facebook.com/groups/ychebniki/" title="Мы на Facebook"><img src="/images/fcbtn.png"></a></li>
    </ul>
   </div>
+  <div id="top_center_bottom" class="top_right_bottom">
+   <div class="info_menu_item left">
+       <div class="info_menu_item_image"><img alt="Информация о способах доставки" src="/images/delivery2_500.png" height="40"></div>
+       <div class="info_menu_item_link"><a title="Информация о способах доставки" href="<?php echo $this->url(array('controller'=>'info','action'=>'delivery'),null,true);?>">Доставка</a></div>
+   </div>
+   <div class="info_menu_item left center">
+       <div class="info_menu_item_image"><img alt="Способы оплаты" src="/images/payment2_500.png" height="40"></div>
+       <div class="info_menu_item_link"><a title="Информация о способах оплаты" href="<?php echo $this->url(array('controller'=>'info','action'=>'payment'),null,true);?>">Оплата</a></div>
+   </div>      
+   <div class="info_menu_item left">
+       <div class="info_menu_item_image"><img alt="Информация о скидках" src="/images/discount2_500.png" height="40"></div>
+       <div class="info_menu_item_link"><a title="Информация о скидках" href="<?php echo $this->url(array('controller'=>'info','action'=>'discount'),null,true);?>">Скидки</a></div>
+   </div>    
+   <div class="info_menu_item left">
+       <div class="info_menu_item_image"><img alt="Контактная информация" src="/images/contacts2_500.png" height="40"></div>
+       <div class="info_menu_item_link"><a title="Контактная информация" href="<?php echo $this->url(array('controller'=>'info','action'=>'contacts'),null,true);?>">Контакты</a></div>
+   </div>
+   <div class="clear"></div>
+  </div>
+    
  </div>

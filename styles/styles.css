@@ -275,20 +275,52 @@ font-size:16px;
  text-decoration:none;
 }
 
-.top_right_bottom ul{
- padding:0;
- margin:20px 0 0 0;
+.top_right_bottom{
+    margin-top:5px;
 }
 
+.info_menu_item{
+    width:25%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1;
+    //border: 2px solid #7f7f7f;
+    border-radius:3px;
+}
 
-.top_right_bottom li{
-    display: inline-block; /* Строчно-блочные элементы */
-    margin-right: 35px; /* Расстояние между пунктами меню */
+.info_menu_item_image{
+    padding:0px;
+}
+
+.info_menu_item_image img{
+    padding:0px;
+    margin:0px;
+}
+
+.info_menu_item.center{
+
+  //  margin-left:0.5%;
+  //  margin-right:0.5%;
+
+}
+
+.top_right_bottom a{
+ color:#ef3737;
+ color:#2f3030;
+ font-size:12px;
+}
+
+.top_right_bottom a:hover{
+ text-decoration: none;
 }
 
 .logo strong{
  font-weight:bold;
- font-size:16px;
+ font-size:24px;
+ font-family: Monotype Corsiva;
+ color:#2f3030;
 }
 
 .logo_cart{
@@ -319,7 +351,7 @@ font-size:16px;
 .ac_input{
  height:23px;
  font-size:16px;
- border: 1px solid #7F7F7F;
+ border: 2px solid #7F7F7F;
  border-radius:3px;
  font-weight:bold;
  font-family:Verdana;
