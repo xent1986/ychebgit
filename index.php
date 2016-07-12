@@ -47,7 +47,7 @@ define('WATCHED_PROD_NUM',300);
 define('SEARCH_PROD_NUM',300);
 define('MIN_OR_STR_LEN',3);
 define('TIME_DIFFER',36000);
-define('DESC','Интернет-магазин учебников и учебных принадлежностей. Огромный выбор учебной литературы, канцтоваров и аксессуаров для учебы.');
+define('DESC','В интернет-магазине Учебники.ру вы можете купить учебники, канцелярские товары и другие учебные принадлежности.');
 define('PARTNER','3741_3');
 define('HOLDS_DESC_LEN','500');
 define('GENERAL_PARTNER',3741);
