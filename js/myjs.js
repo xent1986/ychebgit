@@ -596,6 +596,7 @@ function getAlreadyHoldStrT()
 function change_buy_cnt(cnt)
 {
     var cnt2;
+    
     cnt2 = parseInt($("#itemcnt").val());
     cnt2 = cnt2+cnt;
     if (cnt2==0) cnt2=1;
