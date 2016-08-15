@@ -13,31 +13,14 @@
    <div class="pd_common">
    <?php $pic = ($this->details['picture']==''?'/images/nopic.png':$this->details['picture']);?>
     <div class="pd_img left">
-     <img itemprop="image" src="<?php echo $pic;?>" alt="<?php echo glob_quoteStr($this->details['name']);?>" vspace="2" hspace="2">
+     <img itemprop="image" width="200" src="<?php echo $pic;?>" alt="<?php echo glob_quoteStr($this->details['name']);?>" vspace="2" hspace="2">
     </div>
-    <div class="pd_details left" itemscope itemtype="http://data-vocabulary.org/Offer" itemprop="offerDetails">
-       <?php echo glob_productDetailInfoFormat('ID товара: ',$this->details['id']);?>
-       <?php echo glob_productDetailInfoFormat('Автор: ',$this->details['author']);?>
-       <?php echo glob_productDetailInfoFormat(($this->details['book']=='Y'?'Издательство:':'Производитель:'),$this->details['producer'],"brand");?>
-       <?php echo glob_productDetailInfoFormat('Серия: ',$this->details['series']);?>
-       <?php echo glob_productDetailInfoFormat('Год: ',$this->details['year']);?>
-       <?php echo glob_productDetailInfoFormat('',$this->details['cover']);?>
-       <?php echo glob_productDetailInfoFormat('Страниц: ',$this->details['pages']);?>
-       <?php echo glob_productDetailInfoFormat('ISBN: ',glob_addSpaces($this->details['ISBN']));?>
-       <div class="pd_exist">
-        <div class="pd_exist_title left">Наличие:</div>
-        <div class="pd_exist_img left" id="sAvail"><img src="/images/loading5.gif"></div>
-        <script>
-         checkGoodExist(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>);
-        </script>
-        <div class="clear"></div>
-       </div>
-       <div class="pd_buy">
+    <div class="pd_details" itemscope itemtype="http://data-vocabulary.org/Offer" itemprop="offerDetails">
+      <div class="pd_buy">
        <meta content="RUB" itemprop="currency">
-        <div class="pd_price"><div class="pd_buy_price" id="buyprice" itemprop="price"><?php echo $this->details['price'].' руб.';?></div></div>
-        <div class="pd_delivery_info">
-         <div class="pd_di_title">Ориентировочная дата отгрузки:</div>
-         <div class="pd_di_info"></div>
+        <div class="pd_price">
+            <span class="pd_price_title">Цена:</span>
+            <span class="pd_buy_price" id="buyprice" itemprop="price"><?php echo $this->details['price'].' руб.';?></span>
         </div>
         <script>
          updateGoodPrice(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>,<?php echo $this->details['price'];?>,<?php echo $this->details['id']?>);
@@ -49,36 +32,58 @@
           <input id="myitem" name="item" type="hidden" value="<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>">
           <input id="linkitem" name="link" type="hidden" value="<?php echo $this->details['link_ID'];?>">
           <input id="itemcnt" type="hidden" name="quantity" value="1">
-          <div class="pd_cnt left">
+          <div class="pd_cnt">
+              <span>Количество:</span>
            <div class="pd_cnt_all">
-            <div class="pd_cnt_up_down left">
-             <div class="pd_cnt_up" id="cntup"><img src="/images/cntup.png" title="Прибавить"></div>
+             <div class="pd_cnt_item" id="cntdown"><a class="pd_cnt_spinner"> – </a></div>
              <div class="pd_cnt_num" id="cntnum">1</div>
-             <div class="pd_cnt_down" id="cntdown"><img src="/images/cntdown.png" title="Убавить"></div>
-            </div>
+             <div class="pd_cnt_item" id="cntup"><a class="pd_cnt_spinner">+</a></div>
            </div>
           </div>
-          <div class="pd_but_btn left"><div id="btApplyDiv"><input type="submit" id="btApply" value="Купить"></div><div class="pd_hold"></div></div>
-          <div class="clear"></div>
+          <div class="pd_but_btn"><div id="btApplyDiv"><input type="submit" id="btApply" value="В корзину"></div><div class="pd_hold"><div class="pd_hold_img"></div></div></div>
+
          </FORM>
         </div>
-
-       </div>
+       </div> 
+       <?php echo glob_productDetailInfoFormat('ID товара: ',$this->details['id']);?>
+       <?php echo glob_productDetailInfoFormat('Автор: ',$this->details['author']);?>
+       <?php echo glob_productDetailInfoFormat(($this->details['book']=='Y'?'Издательство:':'Производитель:'),$this->details['producer'],"brand");?>
+       <?php echo glob_productDetailInfoFormat('Серия: ',$this->details['series']);?>
+       <?php echo glob_productDetailInfoFormat('Год: ',$this->details['year']);?>
+       <?php echo glob_productDetailInfoFormat('',$this->details['cover']);?>
+       <?php echo glob_productDetailInfoFormat('Страниц: ',$this->details['pages']);?>
+       <?php echo glob_productDetailInfoFormat('ISBN: ',glob_addSpaces($this->details['ISBN']));?>
+       <div class="pd_exist_info">
+        <div class="pd_exist">
+         <div class="pd_exist_title left">Наличие:</div>
+         <div class="pd_exist_img left" id="sAvail"><img src="/images/loading5.gif"></div>
+         <script>
+          checkGoodExist(<?php echo ($this->details['link_ID']==0?$this->details['id']:$this->details['link_ID']);?>);
+         </script>
+         <div class="clear"></div>
+        </div>
+        <div class="pd_delivery_info">
+          <div class="pd_di_title">Ориентировочная дата отгрузки:</div>
+          <div class="pd_di_info"></div>
+        </div>
+       </div>    
     </div>
     <div class="clear"></div>
    </div>
    </section>
+   <noindex>
    <div class="social_share">
     <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
     <div class="yashare-auto-init" data-yashareType="button" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj"></div>
    </div>
+   </noindex>    
    <div class="product_comments" id="commentsblock">
      <div class="pc_comments">Отзывы</div>
     <script> getCommentForm(<?php echo $this->details['id']?>);</script>
     <script> getComments(<?php echo $this->details['id']?>);</script>
    </div>
   </div>
-  <div class="product_detail_right left">
+  <div class="product_detail_right right">
    <section>
    <div class="product_entrance">
     <div id="entShort" class="product_entrance_content"><?= $this->details['name'].($this->details['book']=='Y'?' - '.$this->details['author']:'');?>...<span id="showFullEntrance">отобразить</span></div>

@@ -128,7 +128,7 @@ var isvis=false;
    );
 
    $("#cntup").click(function(){
-    change_buy_cnt(1);
+     change_buy_cnt(1);
    }
    );
 
@@ -595,7 +595,8 @@ function getAlreadyHoldStrT()
 
 function change_buy_cnt(cnt)
 {
-    var cnt2 = parseInt($("#itemcnt").val());
+    var cnt2;
+    cnt2 = parseInt($("#itemcnt").val());
     cnt2 = cnt2+cnt;
     if (cnt2==0) cnt2=1;
     $("#itemcnt").val(cnt2);
