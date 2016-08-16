@@ -793,12 +793,15 @@ tr.product_row > td{
  color:#2F3030;
  //max-width:240px;
  //margin-bottom:5px;
- padding:0 10px 0 210px;
+ padding:0 8px;
+ display: inline-block;
 }
 
 .pd_img{
-    margin-right:-200px;
-    position:absolute;
+   // margin-right:-200px;
+   // position:absolute;
+   display: inline-block;
+   vertical-align: top;
     width:200px;
 }
 
@@ -989,6 +992,7 @@ tr.product_row > td{
  display:inline-block;
  vertical-align: middle;
 }
+
 .pd_hold_img{
     display:inline-block;
     width:16px;
@@ -1005,6 +1009,16 @@ tr.product_row > td{
 .pd_hold_exist{
  margin-left:5px;
  margin-top:3px;
+}
+
+.pd_hold_exist{
+ margin-left:5px;
+ font-size:11px;
+ cursor:pointer;
+ color:#244d5f;
+ //border-bottom:1px dotted #244d5f;
+ display:inline-block;
+ vertical-align: middle;
 }
 
 .pd_hold_exist a{

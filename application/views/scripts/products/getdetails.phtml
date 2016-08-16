@@ -12,7 +12,7 @@
    <section>
    <div class="pd_common">
    <?php $pic = ($this->details['picture']==''?'/images/nopic.png':$this->details['picture']);?>
-    <div class="pd_img left">
+    <div class="pd_img">
      <img itemprop="image" width="200" src="<?php echo $pic;?>" alt="<?php echo glob_quoteStr($this->details['name']);?>" vspace="2" hspace="2">
     </div>
     <div class="pd_details" itemscope itemtype="http://data-vocabulary.org/Offer" itemprop="offerDetails">
@@ -40,7 +40,7 @@
              <div class="pd_cnt_item" id="cntup"><a class="pd_cnt_spinner">+</a></div>
            </div>
           </div>
-          <div class="pd_but_btn"><div id="btApplyDiv"><input type="submit" id="btApply" value="В корзину"></div><div class="pd_hold"><div class="pd_hold_img"></div></div></div>
+          <div class="pd_but_btn"><div id="btApplyDiv"><input type="submit" id="btApply" value="В корзину"></div><div class="pd_hold"></div></div>
          </FORM>
         </div>
        </div> 
@@ -67,7 +67,6 @@
         </div>
        </div>    
     </div>
-    <div class="clear"></div>
    </div>
    </section>
    <noindex>

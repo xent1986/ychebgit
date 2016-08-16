@@ -168,7 +168,7 @@ var isvis=false;
     if ($(".pd_hold").length)
     {
      var isinhold = checkHoldStatus($("#myitem").val());
-     var str = '<div class="pd_hold_empty">отложить</div><div class="clear"></div>';
+     var str = '<div class="pd_hold_img"></div><div class="pd_hold_empty">отложить</div><div class="clear"></div>';
      if (isinhold)
      {
       str = getAlreadyHoldStr();
@@ -180,6 +180,7 @@ var isvis=false;
     $(".pd_hold_empty").click(function(){
       addHoldItem($("#myitem").val());
       $(".pd_hold_empty").remove();
+      $(".pd_hold_img").remove();
       $(".pd_hold").append(getAlreadyHoldStr());
       updateLeftTool();
     }
