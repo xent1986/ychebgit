@@ -1248,35 +1248,68 @@ color:#2F3030;
 }
 
 .cf_name{
- margin-bottom:3px;
+margin-bottom: 5px;
 }
 
 .cf_comment{
- margin-bottom:3px;
+ margin-bottom:5px;
 }
 
 #uname{
- width:300px;
- border:2px solid #84B4CA;
- border-radius:3px;
  color:#2F3030;
  font-size:14px;
  padding:3px;
  font-family:Verdana;
+  height:23px;
+ width:100%;
+ display: inline-block;
+ border:1px solid #dcdcdc;
+ border-radius:3px 3px 3px 3px;
+ box-shadow: 1px 1px 3px 1px rgba(200,200,200,0.2);
+ padding: 0px;
+ }
+ 
+ #uname:hover{
+  border:1px solid #3498db;  
+  box-shadow: 1px 1px 3px 1px rgba(52,152,219,0.2);
+  transition: all 200ms cubic-bezier(0.42,0,0.58,1) 0s;
+}
+#uname:focus{
+  border:1px solid #3498db;  
+  box-shadow: 1px 1px 3px 1px rgba(52,152,219,0.2);
+  transition: all 200ms cubic-bezier(0.42,0,0.58,1) 0s;
 }
 
 #ucomment{
- width:300px;
- border:2px solid #84B4CA;
- border-radius:3px;
  color:#2F3030;
  font-size:14px;
  padding:3px;
- resize:none;
  font-family:Verdana;
+ width:100%;
+ display: inline-block;
+ border:1px solid #dcdcdc;
+ border-radius:3px 3px 3px 3px;
+ box-shadow: 1px 1px 3px 1px rgba(200,200,200,0.2);
+ padding: 0px;
+ resize:none;
+ }
+ 
+ #ucomment:hover{
+  border:1px solid #3498db;  
+  box-shadow: 1px 1px 3px 1px rgba(52,152,219,0.2);
+  transition: all 200ms cubic-bezier(0.42,0,0.58,1) 0s;
+}
+#ucomment:focus{
+  border:1px solid #3498db;  
+  box-shadow: 1px 1px 3px 1px rgba(52,152,219,0.2);
+  transition: all 200ms cubic-bezier(0.42,0,0.58,1) 0s;
 }
 
-#commentApply{
+.cf_btn{
+    text-align: right;
+}
+
+/*#commentApply{
  border:2px solid #84B4CA;
  background-color:#84B4CA;
  border-radius:3px;
@@ -1290,6 +1323,22 @@ color:#2F3030;
 
 #commentApply:hover{
  background-color:#D2E6EF;
+}*/
+
+#commentApply{
+ color:#244d5f;
+ padding: 6px 15px;
+ font-size:12px;
+ font-weight: 700;
+ border:1px solid #dcdcdc;
+ background-color: #FFFFFF;
+}
+
+#commentApply:hover{
+ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+ background-color: rgb(70, 89, 131);
+ color:#FFFFFF;
+ cursor: pointer;
 }
 
 #commentsul{
