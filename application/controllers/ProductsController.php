@@ -31,7 +31,7 @@ class ProductsController extends Zend_Controller_Action
    $childs = $cat[0]['children'];
    $w=date('W',time()+TIME_DIFFER);
    $start = ($w==0?1:$w-1)*3+1;
-   $res[] = array('part'=>$val['name'],'prods'=>$db1->getProductsByCat($childs,$start,3),'color'=>$val['color']);
+   $res[] = array('part'=>$val['name'],'prods'=>$db1->getProductsByCat($childs,$start,4),'color'=>$val['color']);
   }
    return $res;
  }

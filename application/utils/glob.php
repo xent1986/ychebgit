@@ -2,7 +2,7 @@
 
 function glob_definePerpage($tmp) {
     switch ($tmp) {
-        case 18: {
+        case 20: {
                 $perpage = $tmp;
                 break;
             }
@@ -15,7 +15,7 @@ function glob_definePerpage($tmp) {
                 break;
             }
         default : {
-                $perpage = 18;
+                $perpage = 20;
                 break;
             }
     }
@@ -99,6 +99,14 @@ function glob_productInfoFormat($name, $info) {
          <div class=\"prod_info_value left\">{$info}</div>
          <div class=\"clear\"></div>
         </div>";
+    if (($info == '') || ($info == '0000') || ($info == '0') || ($info == '-') || ($info == '?')) {
+        $res = "";
+    }
+    return $res;
+}
+
+function glob_productInfoFormat2($class, $info, $postfix="") {
+    $res = "<div class=\"prod_details_{$class}\">{$info} {$postfix}</div>";
     if (($info == '') || ($info == '0000') || ($info == '0') || ($info == '-') || ($info == '?')) {
         $res = "";
     }

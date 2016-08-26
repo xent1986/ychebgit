@@ -253,7 +253,7 @@ function buyFromCat(id,obj)
      var obj = $('iframe#cartdetailframe');
      var form = obj.contents().find("#frameCartForm");
      var item = obj.contents().find("#myitem");
-     prnt.html('<a id="make_order_link" title="Перейти в корзину" href='+domain+'cart>Перейти в корзину</a>');
+     prnt.html('<a id="make_order_link" title="Перейти в корзину" href='+domain+'cart>В корзине</a>');
      prnt.css('margin-top','5px');
      prnt.find("#make_order_link").css('display','block');
      item.val(id);
@@ -516,14 +516,14 @@ function checkHoldsInTable()
  $(".holdprodid").each(function(){
    var prnt = $(this).parent();
    var isinhold = checkHoldStatus($(this).val());
-   var str = "<div class='pt_hold_empty left' onclick='addHoldItemT($(this));'>отложить</div>";
+   var str = "<div class='pt_hold_empty' onclick='addHoldItemT($(this));'>отложить</div>";
    if (isinhold)
    {
-    str = "<div class='pt_hold_exist left'><a href='"+domain+"holdlist'>в отложенных</a></div>";
+    str = "<div class='pt_hold_exist'><a href='"+domain+"holdlist'>в отложенных</a></div>";
    }
-    prnt.find(".clear").remove();
+    //prnt.find(".clear").remove();
     prnt.append(str);
-    prnt.append("<div class='clear'></div>");
+    //prnt.append("<div class='clear'></div>");
  }
  );
 }
@@ -590,7 +590,7 @@ function getAlreadyHoldStr()
 
 function getAlreadyHoldStrT()
 {
- str = '<div class="pt_hold_exist left"><a href="'+domain+'holdlist" title="Отложенные товары">в отложенных</a></div>';
+ str = '<div class="pt_hold_exist"><a href="'+domain+'holdlist" title="Отложенные товары">в отложенных</a></div>';
  return str;
 }
 
