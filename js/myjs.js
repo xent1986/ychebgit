@@ -296,7 +296,7 @@ function buyGood(id)
      var item = obj.contents().find("#myitem");
      var cnt = obj.contents().find("#itemcnt");
      var cnt2 = $("#itemcnt").val(); if (cnt2<0) cnt2=1;
-     $("#btApplyDiv").html('<a href='+domain+'cart><div id="btApplyOk">Перейти в корзину</div></a>');
+     $("#btApplyDiv").html('<a href='+domain+'cart><div id="btApplyOk">В корзине</div></a>');
      item.val(id);
      cnt.val(cnt2);
      form.submit();

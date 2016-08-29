@@ -625,7 +625,7 @@ tr.product_row > td{
 .prod_info{
  margin-bottom:5px;
  width:auto;
- height:360px;
+ height:365px;
  display: block;
  padding: 0 10px 10px 10px;
  margin-right:0 !important;
@@ -1941,7 +1941,7 @@ border-bottom:2px solid #FFFFFF;
 #btApplyDiv a{
  text-decoration:none;
 }
-
+/*
 #btApplyOk{
  margin:5px 0 0 5px;
  background-color:green;
@@ -1960,6 +1960,22 @@ border-bottom:2px solid #FFFFFF;
 #btApplyOk:hover{
 border:2px solid green;
  background-color:#4dab1f;
+}*/
+
+#btApplyOk{
+ color:#008000;
+ font-size:12px;
+ font-weight: 700;
+ padding: 6px 15px;
+ border:1px solid #dcdcdc;
+ text-decoration: none;
+}
+
+#btApplyOk:hover{
+ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+ background-color: rgb(0, 128, 0);
+ color:#FFFFFF;
+ cursor: pointer;
 }
 
 #btApplyFail{
