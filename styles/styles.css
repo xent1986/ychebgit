@@ -660,6 +660,12 @@ tr.product_row > td{
 }
 .prod_details_author{
     color:#808080;
+    height:12px;
+    overflow:hidden;
+}
+.prod_details_producer{
+     height:12px;
+    overflow:hidden;
 }
 
 .prod_info_value{
