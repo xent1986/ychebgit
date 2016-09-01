@@ -325,4 +325,14 @@ function glob_extractCartCount($text)
   return $s;
 }
 
+function glob_getCacheID($ar,$key)
+{
+    $str="";
+    foreach ($ar as $val)
+    {
+        $str.=$val["cat"].",";
+    }
+    return md5($str);
+}
+
 ?>

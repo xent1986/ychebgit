@@ -10,6 +10,7 @@ class CategoriesController extends Zend_Controller_Action
  public function indexAction()
  {
   global $sec_ar;//глобальная переменная из index.php
+  global $mycache;//КЭШ
 
   $front = Zend_Controller_Front::getInstance();
   $item = $front->getRequest()->getParam('item');
@@ -45,18 +46,28 @@ class CategoriesController extends Zend_Controller_Action
      $this->view->basesection=$tmp;
   }
   $this->view->menuitems = $sec_ar;//список разделов  (книги,канцтовары,ПО,учебная литература)
-  $ar="";
+  $ar=""; $cache_ar = null;
 
   if ($cat)
   {
    $cat = intval($cat);
-   $cc = $this->selectExistCat($cat);
+   if (!$cc=$mycache->load("existcat".$cat)) //получаем КЭШ,если он есть. Если нет - делаем запрос
+   {
+       $cc = $this->selectExistCat($cat);
+       $mycache->save($cc,"existcat".$cat);
+   }
+   
    if (!$cc) {
      $ccc=1;
    }
    else
    {
-    $ar = $this->section_getSubCats($cat);
+    if (!$cache_ar=$mycache->load("getsubcats".$cat))// получаем КЭШ подкатегорий
+    {
+       $cache_ar = $this->section_getSubCats($cat);
+       $mycache->save($cache_ar,"getsubcats".$cat);
+    }
+    $ar = $cache_ar;   
    }
   }
   else
@@ -64,20 +75,37 @@ class CategoriesController extends Zend_Controller_Action
    if ($topid!=0)
    {
     $topid = intval($topid);
-    $cc = $this->selectExistCat($topid);
+    if (!$cc=$mycache->load("existcat".$topid)) //получаем КЭШ,если он есть. Если нет - делаем запрос
+    {
+       $cc = $this->selectExistCat($topid);
+       $mycache->save($cc,"existcat".$topid);
+    }
+    
     if (!$cc) {
      $ccc=1;
     }
     else
     {
-     $ar = $this->section_getSubTopCats($topid);
+        if (!$cache_ar=$mycache->load("getsubcats".$topid))// получаем КЭШ подкатегорий
+        {
+           $cache_ar = $this->section_getSubCats($topid); 
+           $mycache->save($cache_ar,"getsubcats".$topid);
+        }
+        $ar = $cache_ar;
     }
    }
   }
+  $cacheID = glob_getCacheID($ar,"cat");
   if (is_array($ar))
   {
-   $ar = $this->categories_ExcludeEmpty($ar);
+   if (!$cache_ar=$mycache->load($cacheID))
+   {
+       $cache_ar = $this->categories_ExcludeEmpty($ar);
+       $mycache->save($cache_ar,$cacheID);
+   }
+   $ar = $cache_ar;
   }
+  //print_r($ar); die;
   $this->view->subcats = $ar;
  }
 
