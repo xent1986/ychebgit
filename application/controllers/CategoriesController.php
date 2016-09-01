@@ -95,9 +95,10 @@ class CategoriesController extends Zend_Controller_Action
     }
    }
   }
-  $cacheID = glob_getCacheID($ar,"cat");
+  
   if (is_array($ar))
   {
+   $cacheID = glob_getCacheID($ar,"cat");
    if (!$cache_ar=$mycache->load($cacheID))
    {
        $cache_ar = $this->categories_ExcludeEmpty($ar);
